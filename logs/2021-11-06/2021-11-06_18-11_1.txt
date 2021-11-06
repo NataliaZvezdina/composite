@@ -1,0 +1,1 @@
+2021-11-06 18:11:59 [main] [readLines] [28] INFO  zvezdina.composite.reader.impl.CustomReaderImpl - Read file data/text.txt

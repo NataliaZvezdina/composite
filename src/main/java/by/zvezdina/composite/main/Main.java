@@ -22,12 +22,30 @@ public class Main {
         AbstractHandler handler = new TextHandler();
         TextComponent component = handler.handleRequest(text);
 
-        System.out.println("----------Component final");
+        System.out.println("----------Component final -->");
         System.out.println(component.toString());
 
         System.out.println("-------------------------------------------");
         CustomTextService service = new CustomTextServiceImpl();
-        System.out.println(service.sortParagraphs(text));
+        //TextComponent t = new TextComposite();
+        System.out.println(service.sortParagraphs(component));
 
+        System.out.println("---------Filter sentences --->");
+        String result = service.filterSentencesByWordsNumber(component, 25);
+        System.out.println("Resulting filtered text: " + result);
+
+        System.out.println("--------Sentence with the longest word -->");
+        System.out.println(service.findSentenceHavingLongestWord(component));
+
+
+        System.out.println("--------Count vowels in sentences --->");
+        component.getListComponents()
+                .stream().flatMap(c -> c.getListComponents().stream())
+                .forEach(c -> System.out.println(service.countVowels(c) + " for sentence: " + c));
+
+        System.out.println("--------Count consonants in sentences --->");
+        component.getListComponents()
+                .stream().flatMap(c -> c.getListComponents().stream())
+                .forEach(c -> System.out.println(service.countConsonants(c) + " for sentence: " + c));
     }
 }

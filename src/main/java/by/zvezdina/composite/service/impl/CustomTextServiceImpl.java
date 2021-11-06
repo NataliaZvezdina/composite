@@ -1,23 +1,91 @@
 package by.zvezdina.composite.service.impl;
 
 import by.zvezdina.composite.entity.TextComponent;
-import by.zvezdina.composite.parser.AbstractHandler;
-import by.zvezdina.composite.parser.ParagraphHandler;
 import by.zvezdina.composite.service.CustomTextService;
+import org.apache.logging.log4j.Level;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
+import java.util.Arrays;
 import java.util.Comparator;
 import java.util.List;
+import java.util.Optional;
+import java.util.regex.Pattern;
 import java.util.stream.Collectors;
 
 public class CustomTextServiceImpl implements CustomTextService {
+    private static final Logger logger = LogManager.getLogger();
+    private static final String SPACE = "\\s";
+    private static final String VOWEL_SET = "(?iu)[aeiouаеиоу]";
+    private static final String CONSONANT_SET = "(?iu)[^aeiouаеиоу\\p{Punct}\\s\\d]";
 
     @Override
-    public String sortParagraphs(String text) {
-        AbstractHandler handler = new ParagraphHandler();
-        TextComponent component = handler.handleRequest(text);
-        List<TextComponent> sorted = component.getListComponents().stream().sorted(Comparator.comparingInt(TextComponent::getSize))
+    public String sortParagraphs(TextComponent text) {
+        String sorted = text.getListComponents().stream().sorted(Comparator.comparingInt(TextComponent::getSize))
+                .map(TextComponent::toString).collect(Collectors.joining(" "));
+
+        return sorted;
+    }
+
+    @Override
+    public String filterSentencesByWordsNumber(TextComponent text, int numberOfWords) {
+        String filtered = text.getListComponents().stream().flatMap(c -> c.getListComponents().stream())
+                .filter(c -> (c.getSize() > numberOfWords))
+                .map(TextComponent::toString)
+                .collect(Collectors.joining(" "));
+
+        return filtered;
+    }
+
+    public String findSentenceHavingLongestWord(TextComponent text) {
+        List<String> senntences = text.getListComponents().stream()
+                .flatMap(c -> c.getListComponents().stream())
+                .map(TextComponent::toString)
                 .collect(Collectors.toList());
-        return sorted.toString();
+
+        String longestWord = "";
+        String sentenceToFind = "";
+        for (String sentence : senntences) {
+            String[] words = sentence.split(SPACE);
+            Optional<String> longest = Arrays.stream(words).max(Comparator.comparingInt(String::length));
+            if (longest.isPresent()) {
+                String optionalLongest = longest.get();
+                if (optionalLongest.length() > longestWord.length()) {
+                    longestWord = optionalLongest;
+                    sentenceToFind = sentence;
+                }
+            }
+        }
+
+        logger.log(Level.INFO, "Found sentence: " + sentenceToFind);
+        return sentenceToFind;
+    }
+
+    @Override
+    public long countVowels(TextComponent sentence) {
+        long count = sentence.getListComponents()
+                .stream()
+                .flatMap(c -> c.getListComponents().stream())
+                .map(TextComponent::toString)
+                .filter(c -> Pattern.matches(VOWEL_SET, c))
+                .count();
+
+        logger.log(Level.INFO, "Count vowels: " + count + " for sentence: " + sentence);
+        return count;
+    }
+
+    @Override
+    public long countConsonants(TextComponent sentence) {
+        long count = sentence.getListComponents()
+                .stream()
+                .flatMap(c -> c.getListComponents().stream())
+                .map(TextComponent::toString)
+                .filter(c -> Pattern.matches(CONSONANT_SET, c))
+                .count();
+
+        logger.log(Level.INFO, "Count consonants: " + count + " for sentence: " + sentence);
+        return count;
     }
 }
-//List<TextComponent>
+
+
