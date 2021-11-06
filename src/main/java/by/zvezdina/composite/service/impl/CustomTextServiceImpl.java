@@ -6,10 +6,7 @@ import org.apache.logging.log4j.Level;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-import java.util.Arrays;
-import java.util.Comparator;
-import java.util.List;
-import java.util.Optional;
+import java.util.*;
 import java.util.regex.Pattern;
 import java.util.stream.Collectors;
 
@@ -59,6 +56,26 @@ public class CustomTextServiceImpl implements CustomTextService {
 
         logger.log(Level.INFO, "Found sentence: " + sentenceToFind);
         return sentenceToFind;
+    }
+
+    @Override
+    public Map<String, Integer> countWordsFrequency(TextComponent text) {
+        Map<String, Integer> wordsFrequency = new HashMap<>();
+
+        text.getListComponents()
+                .stream()
+                .flatMap(c -> c.getListComponents().stream())
+                .flatMap(c -> c.getListComponents().stream())
+                .map(TextComponent::toString)
+                .forEach(c -> {
+                    wordsFrequency.computeIfAbsent(c, (key) -> 0);
+                    int count = wordsFrequency.get(c);
+                    count++;
+                    wordsFrequency.put(c, count);
+                });
+
+
+        return wordsFrequency;
     }
 
     @Override

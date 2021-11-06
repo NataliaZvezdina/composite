@@ -47,5 +47,10 @@ public class Main {
         component.getListComponents()
                 .stream().flatMap(c -> c.getListComponents().stream())
                 .forEach(c -> System.out.println(service.countConsonants(c) + " for sentence: " + c));
+
+        System.out.println("--------Count words frequency -->");
+        service.countWordsFrequency(component)
+                .forEach((key, value) -> System.out.println(key + " - found times " + value));
+
     }
 }
