@@ -11,7 +11,7 @@ import java.util.regex.Pattern;
 
 public class ParagraphHandler extends AbstractHandler {
     private static final Logger logger = LogManager.getLogger();
-    private static final String SENTENCE_DELIMITER = ".+?[.?!…](\\s|$)";
+    private static final String SENTENCE_DELIMITER = ".+?[.?!…](\\s|$)";            // ".+?[.?!…](\\s|$)"
 
     public ParagraphHandler(){
         super(new SentenceHandler());
@@ -19,18 +19,19 @@ public class ParagraphHandler extends AbstractHandler {
 
     @Override
     public TextComponent handleRequest(String textElement) {
-        System.out.println("Start parse text element: " + textElement);
+        logger.log(Level.INFO, "Start parse text element - paragraph: " + textElement);
+
         Pattern pattern = Pattern.compile(SENTENCE_DELIMITER);
         Matcher matcher = pattern.matcher(textElement);
 
         TextComponent textComponent = new TextComposite();
         TextComponent component;
         while (matcher.find()) {
-            logger.log(Level.INFO, "Found matching sentence(?):" + matcher.group());
+            logger.log(Level.INFO, "Found matching sentence:" + matcher.group());
             component = chain(matcher.group());
             textComponent.add(component);
         }
-        logger.log(Level.INFO, "Result text component: " + textComponent);
+        logger.log(Level.INFO, "Result text component - sentence: " + textComponent);
         return textComponent;
     }
 }

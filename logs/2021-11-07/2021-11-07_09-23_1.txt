@@ -1,0 +1,76 @@
+2021-11-07 09:23:12 [main] [readLines] [28] INFO  zvezdina.composite.reader.impl.CustomReaderImpl - Read file data/text.txt
+2021-11-07 09:23:12 [main] [handleRequest] [34] INFO  by.zvezdina.composite.parser.TextHandler - Found matching paragraph:    It has survived - not only (five) centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the “Динамо” (Рига) with the release of Letraset sheets.toString() containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker Faclon9 including versions of Lorem Ipsum!
+2021-11-07 09:23:12 [main] [handleRequest] [29] INFO  by.zvezdina.composite.parser.ParagraphHandler - Found matching sentence(?):    It has survived - not only (five) centuries, but also the leap into electronic typesetting, remaining essentially unchanged. 
+2021-11-07 09:23:12 [main] [handleRequest] [32] INFO  by.zvezdina.composite.parser.SentenceHandler - Found matching lexeme :  
+2021-11-07 09:23:12 [main] [handleRequest] [29] INFO  by.zvezdina.composite.parser.WordHandler - Text component: 
+2021-11-07 09:23:12 [main] [handleRequest] [32] INFO  by.zvezdina.composite.parser.SentenceHandler - Found matching lexeme :  
+2021-11-07 09:23:12 [main] [handleRequest] [29] INFO  by.zvezdina.composite.parser.WordHandler - Text component: 
+2021-11-07 09:23:12 [main] [handleRequest] [32] INFO  by.zvezdina.composite.parser.SentenceHandler - Found matching lexeme :It 
+2021-11-07 09:23:12 [main] [handleRequest] [29] INFO  by.zvezdina.composite.parser.WordHandler - Text component: 
+2021-11-07 09:23:12 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: I
+2021-11-07 09:23:12 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: t
+2021-11-07 09:23:12 [main] [handleRequest] [29] INFO  by.zvezdina.composite.parser.WordHandler - Text component: It
+2021-11-07 09:23:31 [main] [readLines] [28] INFO  zvezdina.composite.reader.impl.CustomReaderImpl - Read file data/text.txt
+2021-11-07 09:23:31 [main] [handleRequest] [34] INFO  by.zvezdina.composite.parser.TextHandler - Found matching paragraph:    It has survived - not only (five) centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the “Динамо” (Рига) with the release of Letraset sheets.toString() containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker Faclon9 including versions of Lorem Ipsum!
+2021-11-07 09:23:31 [main] [handleRequest] [29] INFO  by.zvezdina.composite.parser.ParagraphHandler - Found matching sentence(?):    It has survived - not only (five) centuries, but also the leap into electronic typesetting, remaining essentially unchanged. 
+2021-11-07 09:23:31 [main] [handleRequest] [32] INFO  by.zvezdina.composite.parser.SentenceHandler - Found matching lexeme :  
+2021-11-07 09:23:31 [main] [handleRequest] [29] INFO  by.zvezdina.composite.parser.WordHandler - Text component: 
+2021-11-07 09:23:31 [main] [handleRequest] [32] INFO  by.zvezdina.composite.parser.SentenceHandler - Found matching lexeme :  
+2021-11-07 09:23:31 [main] [handleRequest] [29] INFO  by.zvezdina.composite.parser.WordHandler - Text component: 
+2021-11-07 09:23:31 [main] [handleRequest] [32] INFO  by.zvezdina.composite.parser.SentenceHandler - Found matching lexeme :It 
+2021-11-07 09:23:31 [main] [handleRequest] [29] INFO  by.zvezdina.composite.parser.WordHandler - Text component: 
+2021-11-07 09:23:31 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: I
+2021-11-07 09:23:31 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: t
+2021-11-07 09:23:31 [main] [handleRequest] [29] INFO  by.zvezdina.composite.parser.WordHandler - Text component: It
+2021-11-07 09:23:31 [main] [handleRequest] [32] INFO  by.zvezdina.composite.parser.SentenceHandler - Found matching lexeme :has 
+2021-11-07 09:23:31 [main] [handleRequest] [29] INFO  by.zvezdina.composite.parser.WordHandler - Text component: 
+2021-11-07 09:23:31 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: h
+2021-11-07 09:23:31 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: a
+2021-11-07 09:23:31 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: s
+2021-11-07 09:23:31 [main] [handleRequest] [29] INFO  by.zvezdina.composite.parser.WordHandler - Text component: has
+2021-11-07 09:23:31 [main] [handleRequest] [32] INFO  by.zvezdina.composite.parser.SentenceHandler - Found matching lexeme :survived 
+2021-11-07 09:23:31 [main] [handleRequest] [29] INFO  by.zvezdina.composite.parser.WordHandler - Text component: 
+2021-11-07 09:23:31 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: s
+2021-11-07 09:23:31 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: u
+2021-11-07 09:23:31 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: r
+2021-11-07 09:23:31 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: v
+2021-11-07 09:23:31 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: i
+2021-11-07 09:23:31 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: v
+2021-11-07 09:23:31 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: e
+2021-11-07 09:23:31 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: d
+2021-11-07 09:23:31 [main] [handleRequest] [29] INFO  by.zvezdina.composite.parser.WordHandler - Text component: survived
+2021-11-07 09:23:31 [main] [handleRequest] [32] INFO  by.zvezdina.composite.parser.SentenceHandler - Found matching lexeme :- 
+2021-11-07 09:23:31 [main] [handleRequest] [29] INFO  by.zvezdina.composite.parser.WordHandler - Text component: 
+2021-11-07 09:23:31 [main] [handleRequest] [32] INFO  by.zvezdina.composite.parser.SentenceHandler - Found matching lexeme :not 
+2021-11-07 09:23:31 [main] [handleRequest] [29] INFO  by.zvezdina.composite.parser.WordHandler - Text component: 
+2021-11-07 09:23:31 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: n
+2021-11-07 09:23:31 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: o
+2021-11-07 09:23:31 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: t
+2021-11-07 09:23:31 [main] [handleRequest] [29] INFO  by.zvezdina.composite.parser.WordHandler - Text component: not
+2021-11-07 09:23:31 [main] [handleRequest] [32] INFO  by.zvezdina.composite.parser.SentenceHandler - Found matching lexeme :only 
+2021-11-07 09:23:31 [main] [handleRequest] [29] INFO  by.zvezdina.composite.parser.WordHandler - Text component: 
+2021-11-07 09:23:31 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: o
+2021-11-07 09:23:31 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: n
+2021-11-07 09:23:31 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: l
+2021-11-07 09:23:31 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: y
+2021-11-07 09:23:31 [main] [handleRequest] [29] INFO  by.zvezdina.composite.parser.WordHandler - Text component: only
+2021-11-07 09:23:31 [main] [handleRequest] [32] INFO  by.zvezdina.composite.parser.SentenceHandler - Found matching lexeme :(five) 
+2021-11-07 09:23:31 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: (
+2021-11-07 09:23:31 [main] [handleRequest] [29] INFO  by.zvezdina.composite.parser.WordHandler - Text component: (
+2021-11-07 09:23:31 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: f
+2021-11-07 09:23:31 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: i
+2021-11-07 09:23:31 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: v
+2021-11-07 09:23:31 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: e
+2021-11-07 09:23:31 [main] [handleRequest] [29] INFO  by.zvezdina.composite.parser.WordHandler - Text component: five
+2021-11-07 09:23:49 [main] [readLines] [28] INFO  zvezdina.composite.reader.impl.CustomReaderImpl - Read file data/text.txt
+2021-11-07 09:23:49 [main] [handleRequest] [34] INFO  by.zvezdina.composite.parser.TextHandler - Found matching paragraph:    It has survived - not only (five) centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the “Динамо” (Рига) with the release of Letraset sheets.toString() containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker Faclon9 including versions of Lorem Ipsum!
+2021-11-07 09:23:49 [main] [handleRequest] [29] INFO  by.zvezdina.composite.parser.ParagraphHandler - Found matching sentence(?):    It has survived - not only (five) centuries, but also the leap into electronic typesetting, remaining essentially unchanged. 
+2021-11-07 09:23:49 [main] [handleRequest] [32] INFO  by.zvezdina.composite.parser.SentenceHandler - Found matching lexeme :  
+2021-11-07 09:23:49 [main] [handleRequest] [29] INFO  by.zvezdina.composite.parser.WordHandler - Text component: 
+2021-11-07 09:23:49 [main] [handleRequest] [32] INFO  by.zvezdina.composite.parser.SentenceHandler - Found matching lexeme :  
+2021-11-07 09:23:49 [main] [handleRequest] [29] INFO  by.zvezdina.composite.parser.WordHandler - Text component: 
+2021-11-07 09:23:49 [main] [handleRequest] [32] INFO  by.zvezdina.composite.parser.SentenceHandler - Found matching lexeme :It 
+2021-11-07 09:23:49 [main] [handleRequest] [29] INFO  by.zvezdina.composite.parser.WordHandler - Text component: 
+2021-11-07 09:23:49 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: I
+2021-11-07 09:23:50 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: t
+2021-11-07 09:23:50 [main] [handleRequest] [29] INFO  by.zvezdina.composite.parser.WordHandler - Text component: It

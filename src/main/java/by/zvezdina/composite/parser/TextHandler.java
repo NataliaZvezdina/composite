@@ -19,7 +19,8 @@ public class TextHandler extends AbstractHandler {
 
     @Override
     public TextComponent handleRequest(String textElement) {
-        System.out.println("Start parse text element: " + textElement);
+        logger.log(Level.INFO, "Start parsing text element - text: " + textElement);
+
         Pattern pattern = Pattern.compile(PARAGRAPH_DELIMITER);
         Matcher matcher = pattern.matcher(textElement);
 
@@ -36,7 +37,7 @@ public class TextHandler extends AbstractHandler {
             component = chain(paragraph);
             textComponent.add(component);
         }
-        logger.log(Level.INFO, "Result text component: " + textComponent);
+        logger.log(Level.INFO, "Result text component - paragraph: " + textComponent);
         return textComponent;
     }
 }

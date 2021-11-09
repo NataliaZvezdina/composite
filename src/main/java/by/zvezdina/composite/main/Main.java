@@ -27,11 +27,12 @@ public class Main {
 
         System.out.println("-------------------------------------------");
         CustomTextService service = new CustomTextServiceImpl();
-        //TextComponent t = new TextComposite();
+
+        System.out.println("---------Sort paragraphs by number of sentences -->");
         System.out.println(service.sortParagraphs(component));
 
         System.out.println("---------Filter sentences --->");
-        String result = service.filterSentencesByWordsNumber(component, 25);
+        String result = service.filterSentencesByWordsNumber(component, 2);
         System.out.println("Resulting filtered text: " + result);
 
         System.out.println("--------Sentence with the longest word -->");
@@ -43,14 +44,14 @@ public class Main {
                 .stream().flatMap(c -> c.getListComponents().stream())
                 .forEach(c -> System.out.println(service.countVowels(c) + " for sentence: " + c));
 
-        System.out.println("--------Count consonants in sentences --->");
-        component.getListComponents()
-                .stream().flatMap(c -> c.getListComponents().stream())
-                .forEach(c -> System.out.println(service.countConsonants(c) + " for sentence: " + c));
-
-        System.out.println("--------Count words frequency -->");
-        service.countWordsFrequency(component)
-                .forEach((key, value) -> System.out.println(key + " - found times " + value));
+//        System.out.println("--------Count consonants in sentences --->");
+//        component.getListComponents()
+//                .stream().flatMap(c -> c.getListComponents().stream())
+//                .forEach(c -> System.out.println(service.countConsonants(c) + " for sentence: " + c));
+//
+//        System.out.println("--------Count words frequency -->");
+//        service.countWordsFrequency(component)
+//                .forEach((key, value) -> System.out.println(key + " - found times " + value));
 
     }
 }
