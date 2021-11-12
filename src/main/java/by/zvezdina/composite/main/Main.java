@@ -59,7 +59,7 @@ public class Main {
         System.out.println("---------------------------------------------------");
         ExpressionHandler expressionHandler = new ExpressionHandler();
         MathOperation mathOperation = new MathOperation();
-        String polishNotation = expressionHandler.convertToPolishNotation("(~71&(2&3|(3|(2&1>>2|2)&2)|10&2))|78");
+        String polishNotation = expressionHandler.convertToPolishNotation("(7^5|1&2<<(2|5>>2&71))|1200");
 
         PolishNotationParser polishNotationParser = new PolishNotationParser();
         List<MathExpression> mathExpressions = polishNotationParser.parse(polishNotation);
@@ -70,3 +70,5 @@ public class Main {
 
     }
 }
+//(~71&(2&3|(3|(2&1>>2|2)&2)|10&2))|78
+//~6&9|(3&4)
