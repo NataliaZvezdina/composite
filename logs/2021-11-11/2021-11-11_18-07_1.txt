@@ -1,0 +1,786 @@
+2021-11-11 18:07:36 [main] [readLines] [28] INFO  zvezdina.composite.reader.impl.CustomReaderImpl - Read file data/text.txt
+2021-11-11 18:07:36 [main] [handleRequest] [22] INFO  by.zvezdina.composite.parser.TextHandler - Start parsing text element - text:     It has survived - not only (five) centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the “Динамо” (Рига) with the release of Letraset sheets.toString() containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker Faclon9 including versions of Lorem Ipsum!     It is a long a!=b established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Ipsum is that it has a more-or-less normal distribution ob.toString(a?b:c), as opposed to using (Content here), content here's, making it look like readable English?     It is a established fact that a reader will be of a page when looking at its layout...     Bye бандерлоги.
+2021-11-11 18:07:36 [main] [handleRequest] [35] INFO  by.zvezdina.composite.parser.TextHandler - Found matching paragraph:    It has survived - not only (five) centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the “Динамо” (Рига) with the release of Letraset sheets.toString() containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker Faclon9 including versions of Lorem Ipsum!
+2021-11-11 18:07:36 [main] [handleRequest] [22] INFO  by.zvezdina.composite.parser.ParagraphHandler - Start parse text element - paragraph:     It has survived - not only (five) centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the “Динамо” (Рига) with the release of Letraset sheets.toString() containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker Faclon9 including versions of Lorem Ipsum!
+2021-11-11 18:07:36 [main] [handleRequest] [30] INFO  by.zvezdina.composite.parser.ParagraphHandler - Found matching sentence:    It has survived - not only (five) centuries, but also the leap into electronic typesetting, remaining essentially unchanged. 
+2021-11-11 18:07:36 [main] [handleRequest] [32] INFO  by.zvezdina.composite.parser.SentenceHandler - Found matching lexeme :  
+2021-11-11 18:07:36 [main] [handleRequest] [23] INFO  by.zvezdina.composite.parser.LexemeHandler - Start parse text element - lexeme:   
+2021-11-11 18:07:36 [main] [handleRequest] [43] INFO  by.zvezdina.composite.parser.LexemeHandler - Result text component - lexeme: 
+2021-11-11 18:07:36 [main] [handleRequest] [32] INFO  by.zvezdina.composite.parser.SentenceHandler - Found matching lexeme :  
+2021-11-11 18:07:36 [main] [handleRequest] [23] INFO  by.zvezdina.composite.parser.LexemeHandler - Start parse text element - lexeme:   
+2021-11-11 18:07:36 [main] [handleRequest] [43] INFO  by.zvezdina.composite.parser.LexemeHandler - Result text component - lexeme: 
+2021-11-11 18:07:36 [main] [handleRequest] [32] INFO  by.zvezdina.composite.parser.SentenceHandler - Found matching lexeme :It 
+2021-11-11 18:07:36 [main] [handleRequest] [23] INFO  by.zvezdina.composite.parser.LexemeHandler - Start parse text element - lexeme: It 
+2021-11-11 18:07:36 [main] [handleRequest] [19] INFO  by.zvezdina.composite.parser.WordHandler - Start parse text element - word: It
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: I
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: t
+2021-11-11 18:07:36 [main] [handleRequest] [29] INFO  by.zvezdina.composite.parser.WordHandler - result text component - word: It
+2021-11-11 18:07:36 [main] [handleRequest] [37] INFO  by.zvezdina.composite.parser.LexemeHandler - Found matching word:It
+2021-11-11 18:07:36 [main] [handleRequest] [19] INFO  by.zvezdina.composite.parser.WordHandler - Start parse text element - word:  
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol:  
+2021-11-11 18:07:36 [main] [handleRequest] [29] INFO  by.zvezdina.composite.parser.WordHandler - result text component - word:  
+2021-11-11 18:07:36 [main] [handleRequest] [43] INFO  by.zvezdina.composite.parser.LexemeHandler - Result text component - lexeme: It 
+2021-11-11 18:07:36 [main] [handleRequest] [32] INFO  by.zvezdina.composite.parser.SentenceHandler - Found matching lexeme :has 
+2021-11-11 18:07:36 [main] [handleRequest] [23] INFO  by.zvezdina.composite.parser.LexemeHandler - Start parse text element - lexeme: has 
+2021-11-11 18:07:36 [main] [handleRequest] [19] INFO  by.zvezdina.composite.parser.WordHandler - Start parse text element - word: has
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: h
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: a
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: s
+2021-11-11 18:07:36 [main] [handleRequest] [29] INFO  by.zvezdina.composite.parser.WordHandler - result text component - word: has
+2021-11-11 18:07:36 [main] [handleRequest] [37] INFO  by.zvezdina.composite.parser.LexemeHandler - Found matching word:has
+2021-11-11 18:07:36 [main] [handleRequest] [19] INFO  by.zvezdina.composite.parser.WordHandler - Start parse text element - word:  
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol:  
+2021-11-11 18:07:36 [main] [handleRequest] [29] INFO  by.zvezdina.composite.parser.WordHandler - result text component - word:  
+2021-11-11 18:07:36 [main] [handleRequest] [43] INFO  by.zvezdina.composite.parser.LexemeHandler - Result text component - lexeme: has 
+2021-11-11 18:07:36 [main] [handleRequest] [32] INFO  by.zvezdina.composite.parser.SentenceHandler - Found matching lexeme :survived 
+2021-11-11 18:07:36 [main] [handleRequest] [23] INFO  by.zvezdina.composite.parser.LexemeHandler - Start parse text element - lexeme: survived 
+2021-11-11 18:07:36 [main] [handleRequest] [19] INFO  by.zvezdina.composite.parser.WordHandler - Start parse text element - word: survived
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: s
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: u
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: r
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: v
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: i
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: v
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: e
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: d
+2021-11-11 18:07:36 [main] [handleRequest] [29] INFO  by.zvezdina.composite.parser.WordHandler - result text component - word: survived
+2021-11-11 18:07:36 [main] [handleRequest] [37] INFO  by.zvezdina.composite.parser.LexemeHandler - Found matching word:survived
+2021-11-11 18:07:36 [main] [handleRequest] [19] INFO  by.zvezdina.composite.parser.WordHandler - Start parse text element - word:  
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol:  
+2021-11-11 18:07:36 [main] [handleRequest] [29] INFO  by.zvezdina.composite.parser.WordHandler - result text component - word:  
+2021-11-11 18:07:36 [main] [handleRequest] [43] INFO  by.zvezdina.composite.parser.LexemeHandler - Result text component - lexeme: survived 
+2021-11-11 18:07:36 [main] [handleRequest] [32] INFO  by.zvezdina.composite.parser.SentenceHandler - Found matching lexeme :- 
+2021-11-11 18:07:36 [main] [handleRequest] [23] INFO  by.zvezdina.composite.parser.LexemeHandler - Start parse text element - lexeme: - 
+2021-11-11 18:07:36 [main] [handleRequest] [43] INFO  by.zvezdina.composite.parser.LexemeHandler - Result text component - lexeme: 
+2021-11-11 18:07:36 [main] [handleRequest] [32] INFO  by.zvezdina.composite.parser.SentenceHandler - Found matching lexeme :not 
+2021-11-11 18:07:36 [main] [handleRequest] [23] INFO  by.zvezdina.composite.parser.LexemeHandler - Start parse text element - lexeme: not 
+2021-11-11 18:07:36 [main] [handleRequest] [19] INFO  by.zvezdina.composite.parser.WordHandler - Start parse text element - word: not
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: n
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: o
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: t
+2021-11-11 18:07:36 [main] [handleRequest] [29] INFO  by.zvezdina.composite.parser.WordHandler - result text component - word: not
+2021-11-11 18:07:36 [main] [handleRequest] [37] INFO  by.zvezdina.composite.parser.LexemeHandler - Found matching word:not
+2021-11-11 18:07:36 [main] [handleRequest] [19] INFO  by.zvezdina.composite.parser.WordHandler - Start parse text element - word:  
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol:  
+2021-11-11 18:07:36 [main] [handleRequest] [29] INFO  by.zvezdina.composite.parser.WordHandler - result text component - word:  
+2021-11-11 18:07:36 [main] [handleRequest] [43] INFO  by.zvezdina.composite.parser.LexemeHandler - Result text component - lexeme: not 
+2021-11-11 18:07:36 [main] [handleRequest] [32] INFO  by.zvezdina.composite.parser.SentenceHandler - Found matching lexeme :only 
+2021-11-11 18:07:36 [main] [handleRequest] [23] INFO  by.zvezdina.composite.parser.LexemeHandler - Start parse text element - lexeme: only 
+2021-11-11 18:07:36 [main] [handleRequest] [19] INFO  by.zvezdina.composite.parser.WordHandler - Start parse text element - word: only
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: o
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: n
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: l
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: y
+2021-11-11 18:07:36 [main] [handleRequest] [29] INFO  by.zvezdina.composite.parser.WordHandler - result text component - word: only
+2021-11-11 18:07:36 [main] [handleRequest] [37] INFO  by.zvezdina.composite.parser.LexemeHandler - Found matching word:only
+2021-11-11 18:07:36 [main] [handleRequest] [19] INFO  by.zvezdina.composite.parser.WordHandler - Start parse text element - word:  
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol:  
+2021-11-11 18:07:36 [main] [handleRequest] [29] INFO  by.zvezdina.composite.parser.WordHandler - result text component - word:  
+2021-11-11 18:07:36 [main] [handleRequest] [43] INFO  by.zvezdina.composite.parser.LexemeHandler - Result text component - lexeme: only 
+2021-11-11 18:07:36 [main] [handleRequest] [32] INFO  by.zvezdina.composite.parser.SentenceHandler - Found matching lexeme :(five) 
+2021-11-11 18:07:36 [main] [handleRequest] [23] INFO  by.zvezdina.composite.parser.LexemeHandler - Start parse text element - lexeme: (five) 
+2021-11-11 18:07:36 [main] [handleRequest] [19] INFO  by.zvezdina.composite.parser.WordHandler - Start parse text element - word: five
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: f
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: i
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: v
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: e
+2021-11-11 18:07:36 [main] [handleRequest] [29] INFO  by.zvezdina.composite.parser.WordHandler - result text component - word: five
+2021-11-11 18:07:36 [main] [handleRequest] [37] INFO  by.zvezdina.composite.parser.LexemeHandler - Found matching word:five
+2021-11-11 18:07:36 [main] [handleRequest] [19] INFO  by.zvezdina.composite.parser.WordHandler - Start parse text element - word:  
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol:  
+2021-11-11 18:07:36 [main] [handleRequest] [29] INFO  by.zvezdina.composite.parser.WordHandler - result text component - word:  
+2021-11-11 18:07:36 [main] [handleRequest] [43] INFO  by.zvezdina.composite.parser.LexemeHandler - Result text component - lexeme: five 
+2021-11-11 18:07:36 [main] [handleRequest] [32] INFO  by.zvezdina.composite.parser.SentenceHandler - Found matching lexeme :centuries, 
+2021-11-11 18:07:36 [main] [handleRequest] [23] INFO  by.zvezdina.composite.parser.LexemeHandler - Start parse text element - lexeme: centuries, 
+2021-11-11 18:07:36 [main] [handleRequest] [19] INFO  by.zvezdina.composite.parser.WordHandler - Start parse text element - word: centuries
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: c
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: e
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: n
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: t
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: u
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: r
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: i
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: e
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: s
+2021-11-11 18:07:36 [main] [handleRequest] [29] INFO  by.zvezdina.composite.parser.WordHandler - result text component - word: centuries
+2021-11-11 18:07:36 [main] [handleRequest] [37] INFO  by.zvezdina.composite.parser.LexemeHandler - Found matching word:centuries
+2021-11-11 18:07:36 [main] [handleRequest] [19] INFO  by.zvezdina.composite.parser.WordHandler - Start parse text element - word:  
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol:  
+2021-11-11 18:07:36 [main] [handleRequest] [29] INFO  by.zvezdina.composite.parser.WordHandler - result text component - word:  
+2021-11-11 18:07:36 [main] [handleRequest] [43] INFO  by.zvezdina.composite.parser.LexemeHandler - Result text component - lexeme: centuries 
+2021-11-11 18:07:36 [main] [handleRequest] [32] INFO  by.zvezdina.composite.parser.SentenceHandler - Found matching lexeme :but 
+2021-11-11 18:07:36 [main] [handleRequest] [23] INFO  by.zvezdina.composite.parser.LexemeHandler - Start parse text element - lexeme: but 
+2021-11-11 18:07:36 [main] [handleRequest] [19] INFO  by.zvezdina.composite.parser.WordHandler - Start parse text element - word: but
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: b
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: u
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: t
+2021-11-11 18:07:36 [main] [handleRequest] [29] INFO  by.zvezdina.composite.parser.WordHandler - result text component - word: but
+2021-11-11 18:07:36 [main] [handleRequest] [37] INFO  by.zvezdina.composite.parser.LexemeHandler - Found matching word:but
+2021-11-11 18:07:36 [main] [handleRequest] [19] INFO  by.zvezdina.composite.parser.WordHandler - Start parse text element - word:  
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol:  
+2021-11-11 18:07:36 [main] [handleRequest] [29] INFO  by.zvezdina.composite.parser.WordHandler - result text component - word:  
+2021-11-11 18:07:36 [main] [handleRequest] [43] INFO  by.zvezdina.composite.parser.LexemeHandler - Result text component - lexeme: but 
+2021-11-11 18:07:36 [main] [handleRequest] [32] INFO  by.zvezdina.composite.parser.SentenceHandler - Found matching lexeme :also 
+2021-11-11 18:07:36 [main] [handleRequest] [23] INFO  by.zvezdina.composite.parser.LexemeHandler - Start parse text element - lexeme: also 
+2021-11-11 18:07:36 [main] [handleRequest] [19] INFO  by.zvezdina.composite.parser.WordHandler - Start parse text element - word: also
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: a
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: l
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: s
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: o
+2021-11-11 18:07:36 [main] [handleRequest] [29] INFO  by.zvezdina.composite.parser.WordHandler - result text component - word: also
+2021-11-11 18:07:36 [main] [handleRequest] [37] INFO  by.zvezdina.composite.parser.LexemeHandler - Found matching word:also
+2021-11-11 18:07:36 [main] [handleRequest] [19] INFO  by.zvezdina.composite.parser.WordHandler - Start parse text element - word:  
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol:  
+2021-11-11 18:07:36 [main] [handleRequest] [29] INFO  by.zvezdina.composite.parser.WordHandler - result text component - word:  
+2021-11-11 18:07:36 [main] [handleRequest] [43] INFO  by.zvezdina.composite.parser.LexemeHandler - Result text component - lexeme: also 
+2021-11-11 18:07:36 [main] [handleRequest] [32] INFO  by.zvezdina.composite.parser.SentenceHandler - Found matching lexeme :the 
+2021-11-11 18:07:36 [main] [handleRequest] [23] INFO  by.zvezdina.composite.parser.LexemeHandler - Start parse text element - lexeme: the 
+2021-11-11 18:07:36 [main] [handleRequest] [19] INFO  by.zvezdina.composite.parser.WordHandler - Start parse text element - word: the
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: t
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: h
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: e
+2021-11-11 18:07:36 [main] [handleRequest] [29] INFO  by.zvezdina.composite.parser.WordHandler - result text component - word: the
+2021-11-11 18:07:36 [main] [handleRequest] [37] INFO  by.zvezdina.composite.parser.LexemeHandler - Found matching word:the
+2021-11-11 18:07:36 [main] [handleRequest] [19] INFO  by.zvezdina.composite.parser.WordHandler - Start parse text element - word:  
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol:  
+2021-11-11 18:07:36 [main] [handleRequest] [29] INFO  by.zvezdina.composite.parser.WordHandler - result text component - word:  
+2021-11-11 18:07:36 [main] [handleRequest] [43] INFO  by.zvezdina.composite.parser.LexemeHandler - Result text component - lexeme: the 
+2021-11-11 18:07:36 [main] [handleRequest] [32] INFO  by.zvezdina.composite.parser.SentenceHandler - Found matching lexeme :leap 
+2021-11-11 18:07:36 [main] [handleRequest] [23] INFO  by.zvezdina.composite.parser.LexemeHandler - Start parse text element - lexeme: leap 
+2021-11-11 18:07:36 [main] [handleRequest] [19] INFO  by.zvezdina.composite.parser.WordHandler - Start parse text element - word: leap
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: l
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: e
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: a
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: p
+2021-11-11 18:07:36 [main] [handleRequest] [29] INFO  by.zvezdina.composite.parser.WordHandler - result text component - word: leap
+2021-11-11 18:07:36 [main] [handleRequest] [37] INFO  by.zvezdina.composite.parser.LexemeHandler - Found matching word:leap
+2021-11-11 18:07:36 [main] [handleRequest] [19] INFO  by.zvezdina.composite.parser.WordHandler - Start parse text element - word:  
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol:  
+2021-11-11 18:07:36 [main] [handleRequest] [29] INFO  by.zvezdina.composite.parser.WordHandler - result text component - word:  
+2021-11-11 18:07:36 [main] [handleRequest] [43] INFO  by.zvezdina.composite.parser.LexemeHandler - Result text component - lexeme: leap 
+2021-11-11 18:07:36 [main] [handleRequest] [32] INFO  by.zvezdina.composite.parser.SentenceHandler - Found matching lexeme :into 
+2021-11-11 18:07:36 [main] [handleRequest] [23] INFO  by.zvezdina.composite.parser.LexemeHandler - Start parse text element - lexeme: into 
+2021-11-11 18:07:36 [main] [handleRequest] [19] INFO  by.zvezdina.composite.parser.WordHandler - Start parse text element - word: into
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: i
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: n
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: t
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: o
+2021-11-11 18:07:36 [main] [handleRequest] [29] INFO  by.zvezdina.composite.parser.WordHandler - result text component - word: into
+2021-11-11 18:07:36 [main] [handleRequest] [37] INFO  by.zvezdina.composite.parser.LexemeHandler - Found matching word:into
+2021-11-11 18:07:36 [main] [handleRequest] [19] INFO  by.zvezdina.composite.parser.WordHandler - Start parse text element - word:  
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol:  
+2021-11-11 18:07:36 [main] [handleRequest] [29] INFO  by.zvezdina.composite.parser.WordHandler - result text component - word:  
+2021-11-11 18:07:36 [main] [handleRequest] [43] INFO  by.zvezdina.composite.parser.LexemeHandler - Result text component - lexeme: into 
+2021-11-11 18:07:36 [main] [handleRequest] [32] INFO  by.zvezdina.composite.parser.SentenceHandler - Found matching lexeme :electronic 
+2021-11-11 18:07:36 [main] [handleRequest] [23] INFO  by.zvezdina.composite.parser.LexemeHandler - Start parse text element - lexeme: electronic 
+2021-11-11 18:07:36 [main] [handleRequest] [19] INFO  by.zvezdina.composite.parser.WordHandler - Start parse text element - word: electronic
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: e
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: l
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: e
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: c
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: t
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: r
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: o
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: n
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: i
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: c
+2021-11-11 18:07:36 [main] [handleRequest] [29] INFO  by.zvezdina.composite.parser.WordHandler - result text component - word: electronic
+2021-11-11 18:07:36 [main] [handleRequest] [37] INFO  by.zvezdina.composite.parser.LexemeHandler - Found matching word:electronic
+2021-11-11 18:07:36 [main] [handleRequest] [19] INFO  by.zvezdina.composite.parser.WordHandler - Start parse text element - word:  
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol:  
+2021-11-11 18:07:36 [main] [handleRequest] [29] INFO  by.zvezdina.composite.parser.WordHandler - result text component - word:  
+2021-11-11 18:07:36 [main] [handleRequest] [43] INFO  by.zvezdina.composite.parser.LexemeHandler - Result text component - lexeme: electronic 
+2021-11-11 18:07:36 [main] [handleRequest] [32] INFO  by.zvezdina.composite.parser.SentenceHandler - Found matching lexeme :typesetting, 
+2021-11-11 18:07:36 [main] [handleRequest] [23] INFO  by.zvezdina.composite.parser.LexemeHandler - Start parse text element - lexeme: typesetting, 
+2021-11-11 18:07:36 [main] [handleRequest] [19] INFO  by.zvezdina.composite.parser.WordHandler - Start parse text element - word: typesetting
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: t
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: y
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: p
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: e
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: s
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: e
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: t
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: t
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: i
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: n
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: g
+2021-11-11 18:07:36 [main] [handleRequest] [29] INFO  by.zvezdina.composite.parser.WordHandler - result text component - word: typesetting
+2021-11-11 18:07:36 [main] [handleRequest] [37] INFO  by.zvezdina.composite.parser.LexemeHandler - Found matching word:typesetting
+2021-11-11 18:07:36 [main] [handleRequest] [19] INFO  by.zvezdina.composite.parser.WordHandler - Start parse text element - word:  
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol:  
+2021-11-11 18:07:36 [main] [handleRequest] [29] INFO  by.zvezdina.composite.parser.WordHandler - result text component - word:  
+2021-11-11 18:07:36 [main] [handleRequest] [43] INFO  by.zvezdina.composite.parser.LexemeHandler - Result text component - lexeme: typesetting 
+2021-11-11 18:07:36 [main] [handleRequest] [32] INFO  by.zvezdina.composite.parser.SentenceHandler - Found matching lexeme :remaining 
+2021-11-11 18:07:36 [main] [handleRequest] [23] INFO  by.zvezdina.composite.parser.LexemeHandler - Start parse text element - lexeme: remaining 
+2021-11-11 18:07:36 [main] [handleRequest] [19] INFO  by.zvezdina.composite.parser.WordHandler - Start parse text element - word: remaining
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: r
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: e
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: m
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: a
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: i
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: n
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: i
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: n
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: g
+2021-11-11 18:07:36 [main] [handleRequest] [29] INFO  by.zvezdina.composite.parser.WordHandler - result text component - word: remaining
+2021-11-11 18:07:36 [main] [handleRequest] [37] INFO  by.zvezdina.composite.parser.LexemeHandler - Found matching word:remaining
+2021-11-11 18:07:36 [main] [handleRequest] [19] INFO  by.zvezdina.composite.parser.WordHandler - Start parse text element - word:  
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol:  
+2021-11-11 18:07:36 [main] [handleRequest] [29] INFO  by.zvezdina.composite.parser.WordHandler - result text component - word:  
+2021-11-11 18:07:36 [main] [handleRequest] [43] INFO  by.zvezdina.composite.parser.LexemeHandler - Result text component - lexeme: remaining 
+2021-11-11 18:07:36 [main] [handleRequest] [32] INFO  by.zvezdina.composite.parser.SentenceHandler - Found matching lexeme :essentially 
+2021-11-11 18:07:36 [main] [handleRequest] [23] INFO  by.zvezdina.composite.parser.LexemeHandler - Start parse text element - lexeme: essentially 
+2021-11-11 18:07:36 [main] [handleRequest] [19] INFO  by.zvezdina.composite.parser.WordHandler - Start parse text element - word: essentially
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: e
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: s
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: s
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: e
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: n
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: t
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: i
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: a
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: l
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: l
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: y
+2021-11-11 18:07:36 [main] [handleRequest] [29] INFO  by.zvezdina.composite.parser.WordHandler - result text component - word: essentially
+2021-11-11 18:07:36 [main] [handleRequest] [37] INFO  by.zvezdina.composite.parser.LexemeHandler - Found matching word:essentially
+2021-11-11 18:07:36 [main] [handleRequest] [19] INFO  by.zvezdina.composite.parser.WordHandler - Start parse text element - word:  
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol:  
+2021-11-11 18:07:36 [main] [handleRequest] [29] INFO  by.zvezdina.composite.parser.WordHandler - result text component - word:  
+2021-11-11 18:07:36 [main] [handleRequest] [43] INFO  by.zvezdina.composite.parser.LexemeHandler - Result text component - lexeme: essentially 
+2021-11-11 18:07:36 [main] [handleRequest] [32] INFO  by.zvezdina.composite.parser.SentenceHandler - Found matching lexeme :unchanged. 
+2021-11-11 18:07:36 [main] [handleRequest] [23] INFO  by.zvezdina.composite.parser.LexemeHandler - Start parse text element - lexeme: unchanged. 
+2021-11-11 18:07:36 [main] [handleRequest] [19] INFO  by.zvezdina.composite.parser.WordHandler - Start parse text element - word: unchanged
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: u
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: n
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: c
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: h
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: a
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: n
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: g
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: e
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: d
+2021-11-11 18:07:36 [main] [handleRequest] [29] INFO  by.zvezdina.composite.parser.WordHandler - result text component - word: unchanged
+2021-11-11 18:07:36 [main] [handleRequest] [37] INFO  by.zvezdina.composite.parser.LexemeHandler - Found matching word:unchanged
+2021-11-11 18:07:36 [main] [handleRequest] [19] INFO  by.zvezdina.composite.parser.WordHandler - Start parse text element - word:  
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol:  
+2021-11-11 18:07:36 [main] [handleRequest] [29] INFO  by.zvezdina.composite.parser.WordHandler - result text component - word:  
+2021-11-11 18:07:36 [main] [handleRequest] [43] INFO  by.zvezdina.composite.parser.LexemeHandler - Result text component - lexeme: unchanged 
+2021-11-11 18:07:36 [main] [handleRequest] [36] INFO  by.zvezdina.composite.parser.SentenceHandler - Result text component: It has survived not only five centuries but also the leap into electronic typesetting remaining essentially unchanged 
+2021-11-11 18:07:36 [main] [handleRequest] [30] INFO  by.zvezdina.composite.parser.ParagraphHandler - Found matching sentence:It was popularised in the “Динамо” (Рига) with the release of Letraset sheets.toString() containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker Faclon9 including versions of Lorem Ipsum!
+2021-11-11 18:07:36 [main] [handleRequest] [32] INFO  by.zvezdina.composite.parser.SentenceHandler - Found matching lexeme :It 
+2021-11-11 18:07:36 [main] [handleRequest] [23] INFO  by.zvezdina.composite.parser.LexemeHandler - Start parse text element - lexeme: It 
+2021-11-11 18:07:36 [main] [handleRequest] [19] INFO  by.zvezdina.composite.parser.WordHandler - Start parse text element - word: It
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: I
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: t
+2021-11-11 18:07:36 [main] [handleRequest] [29] INFO  by.zvezdina.composite.parser.WordHandler - result text component - word: It
+2021-11-11 18:07:36 [main] [handleRequest] [37] INFO  by.zvezdina.composite.parser.LexemeHandler - Found matching word:It
+2021-11-11 18:07:36 [main] [handleRequest] [19] INFO  by.zvezdina.composite.parser.WordHandler - Start parse text element - word:  
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol:  
+2021-11-11 18:07:36 [main] [handleRequest] [29] INFO  by.zvezdina.composite.parser.WordHandler - result text component - word:  
+2021-11-11 18:07:36 [main] [handleRequest] [43] INFO  by.zvezdina.composite.parser.LexemeHandler - Result text component - lexeme: It 
+2021-11-11 18:07:36 [main] [handleRequest] [32] INFO  by.zvezdina.composite.parser.SentenceHandler - Found matching lexeme :was 
+2021-11-11 18:07:36 [main] [handleRequest] [23] INFO  by.zvezdina.composite.parser.LexemeHandler - Start parse text element - lexeme: was 
+2021-11-11 18:07:36 [main] [handleRequest] [19] INFO  by.zvezdina.composite.parser.WordHandler - Start parse text element - word: was
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: w
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: a
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: s
+2021-11-11 18:07:36 [main] [handleRequest] [29] INFO  by.zvezdina.composite.parser.WordHandler - result text component - word: was
+2021-11-11 18:07:36 [main] [handleRequest] [37] INFO  by.zvezdina.composite.parser.LexemeHandler - Found matching word:was
+2021-11-11 18:07:36 [main] [handleRequest] [19] INFO  by.zvezdina.composite.parser.WordHandler - Start parse text element - word:  
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol:  
+2021-11-11 18:07:36 [main] [handleRequest] [29] INFO  by.zvezdina.composite.parser.WordHandler - result text component - word:  
+2021-11-11 18:07:36 [main] [handleRequest] [43] INFO  by.zvezdina.composite.parser.LexemeHandler - Result text component - lexeme: was 
+2021-11-11 18:07:36 [main] [handleRequest] [32] INFO  by.zvezdina.composite.parser.SentenceHandler - Found matching lexeme :popularised 
+2021-11-11 18:07:36 [main] [handleRequest] [23] INFO  by.zvezdina.composite.parser.LexemeHandler - Start parse text element - lexeme: popularised 
+2021-11-11 18:07:36 [main] [handleRequest] [19] INFO  by.zvezdina.composite.parser.WordHandler - Start parse text element - word: popularised
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: p
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: o
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: p
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: u
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: l
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: a
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: r
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: i
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: s
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: e
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: d
+2021-11-11 18:07:36 [main] [handleRequest] [29] INFO  by.zvezdina.composite.parser.WordHandler - result text component - word: popularised
+2021-11-11 18:07:36 [main] [handleRequest] [37] INFO  by.zvezdina.composite.parser.LexemeHandler - Found matching word:popularised
+2021-11-11 18:07:36 [main] [handleRequest] [19] INFO  by.zvezdina.composite.parser.WordHandler - Start parse text element - word:  
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol:  
+2021-11-11 18:07:36 [main] [handleRequest] [29] INFO  by.zvezdina.composite.parser.WordHandler - result text component - word:  
+2021-11-11 18:07:36 [main] [handleRequest] [43] INFO  by.zvezdina.composite.parser.LexemeHandler - Result text component - lexeme: popularised 
+2021-11-11 18:07:36 [main] [handleRequest] [32] INFO  by.zvezdina.composite.parser.SentenceHandler - Found matching lexeme :in 
+2021-11-11 18:07:36 [main] [handleRequest] [23] INFO  by.zvezdina.composite.parser.LexemeHandler - Start parse text element - lexeme: in 
+2021-11-11 18:07:36 [main] [handleRequest] [19] INFO  by.zvezdina.composite.parser.WordHandler - Start parse text element - word: in
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: i
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: n
+2021-11-11 18:07:36 [main] [handleRequest] [29] INFO  by.zvezdina.composite.parser.WordHandler - result text component - word: in
+2021-11-11 18:07:36 [main] [handleRequest] [37] INFO  by.zvezdina.composite.parser.LexemeHandler - Found matching word:in
+2021-11-11 18:07:36 [main] [handleRequest] [19] INFO  by.zvezdina.composite.parser.WordHandler - Start parse text element - word:  
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol:  
+2021-11-11 18:07:36 [main] [handleRequest] [29] INFO  by.zvezdina.composite.parser.WordHandler - result text component - word:  
+2021-11-11 18:07:36 [main] [handleRequest] [43] INFO  by.zvezdina.composite.parser.LexemeHandler - Result text component - lexeme: in 
+2021-11-11 18:07:36 [main] [handleRequest] [32] INFO  by.zvezdina.composite.parser.SentenceHandler - Found matching lexeme :the 
+2021-11-11 18:07:36 [main] [handleRequest] [23] INFO  by.zvezdina.composite.parser.LexemeHandler - Start parse text element - lexeme: the 
+2021-11-11 18:07:36 [main] [handleRequest] [19] INFO  by.zvezdina.composite.parser.WordHandler - Start parse text element - word: the
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: t
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: h
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: e
+2021-11-11 18:07:36 [main] [handleRequest] [29] INFO  by.zvezdina.composite.parser.WordHandler - result text component - word: the
+2021-11-11 18:07:36 [main] [handleRequest] [37] INFO  by.zvezdina.composite.parser.LexemeHandler - Found matching word:the
+2021-11-11 18:07:36 [main] [handleRequest] [19] INFO  by.zvezdina.composite.parser.WordHandler - Start parse text element - word:  
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol:  
+2021-11-11 18:07:36 [main] [handleRequest] [29] INFO  by.zvezdina.composite.parser.WordHandler - result text component - word:  
+2021-11-11 18:07:36 [main] [handleRequest] [43] INFO  by.zvezdina.composite.parser.LexemeHandler - Result text component - lexeme: the 
+2021-11-11 18:07:36 [main] [handleRequest] [32] INFO  by.zvezdina.composite.parser.SentenceHandler - Found matching lexeme :“Динамо” 
+2021-11-11 18:07:36 [main] [handleRequest] [23] INFO  by.zvezdina.composite.parser.LexemeHandler - Start parse text element - lexeme: “Динамо” 
+2021-11-11 18:07:36 [main] [handleRequest] [19] INFO  by.zvezdina.composite.parser.WordHandler - Start parse text element - word: Динамо
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: Д
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: и
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: н
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: а
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: м
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: о
+2021-11-11 18:07:36 [main] [handleRequest] [29] INFO  by.zvezdina.composite.parser.WordHandler - result text component - word: Динамо
+2021-11-11 18:07:36 [main] [handleRequest] [37] INFO  by.zvezdina.composite.parser.LexemeHandler - Found matching word:Динамо
+2021-11-11 18:07:36 [main] [handleRequest] [19] INFO  by.zvezdina.composite.parser.WordHandler - Start parse text element - word:  
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol:  
+2021-11-11 18:07:36 [main] [handleRequest] [29] INFO  by.zvezdina.composite.parser.WordHandler - result text component - word:  
+2021-11-11 18:07:36 [main] [handleRequest] [43] INFO  by.zvezdina.composite.parser.LexemeHandler - Result text component - lexeme: Динамо 
+2021-11-11 18:07:36 [main] [handleRequest] [32] INFO  by.zvezdina.composite.parser.SentenceHandler - Found matching lexeme :(Рига) 
+2021-11-11 18:07:36 [main] [handleRequest] [23] INFO  by.zvezdina.composite.parser.LexemeHandler - Start parse text element - lexeme: (Рига) 
+2021-11-11 18:07:36 [main] [handleRequest] [19] INFO  by.zvezdina.composite.parser.WordHandler - Start parse text element - word: Рига
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: Р
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: и
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: г
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: а
+2021-11-11 18:07:36 [main] [handleRequest] [29] INFO  by.zvezdina.composite.parser.WordHandler - result text component - word: Рига
+2021-11-11 18:07:36 [main] [handleRequest] [37] INFO  by.zvezdina.composite.parser.LexemeHandler - Found matching word:Рига
+2021-11-11 18:07:36 [main] [handleRequest] [19] INFO  by.zvezdina.composite.parser.WordHandler - Start parse text element - word:  
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol:  
+2021-11-11 18:07:36 [main] [handleRequest] [29] INFO  by.zvezdina.composite.parser.WordHandler - result text component - word:  
+2021-11-11 18:07:36 [main] [handleRequest] [43] INFO  by.zvezdina.composite.parser.LexemeHandler - Result text component - lexeme: Рига 
+2021-11-11 18:07:36 [main] [handleRequest] [32] INFO  by.zvezdina.composite.parser.SentenceHandler - Found matching lexeme :with 
+2021-11-11 18:07:36 [main] [handleRequest] [23] INFO  by.zvezdina.composite.parser.LexemeHandler - Start parse text element - lexeme: with 
+2021-11-11 18:07:36 [main] [handleRequest] [19] INFO  by.zvezdina.composite.parser.WordHandler - Start parse text element - word: with
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: w
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: i
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: t
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: h
+2021-11-11 18:07:36 [main] [handleRequest] [29] INFO  by.zvezdina.composite.parser.WordHandler - result text component - word: with
+2021-11-11 18:07:36 [main] [handleRequest] [37] INFO  by.zvezdina.composite.parser.LexemeHandler - Found matching word:with
+2021-11-11 18:07:36 [main] [handleRequest] [19] INFO  by.zvezdina.composite.parser.WordHandler - Start parse text element - word:  
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol:  
+2021-11-11 18:07:36 [main] [handleRequest] [29] INFO  by.zvezdina.composite.parser.WordHandler - result text component - word:  
+2021-11-11 18:07:36 [main] [handleRequest] [43] INFO  by.zvezdina.composite.parser.LexemeHandler - Result text component - lexeme: with 
+2021-11-11 18:07:36 [main] [handleRequest] [32] INFO  by.zvezdina.composite.parser.SentenceHandler - Found matching lexeme :the 
+2021-11-11 18:07:36 [main] [handleRequest] [23] INFO  by.zvezdina.composite.parser.LexemeHandler - Start parse text element - lexeme: the 
+2021-11-11 18:07:36 [main] [handleRequest] [19] INFO  by.zvezdina.composite.parser.WordHandler - Start parse text element - word: the
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: t
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: h
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: e
+2021-11-11 18:07:36 [main] [handleRequest] [29] INFO  by.zvezdina.composite.parser.WordHandler - result text component - word: the
+2021-11-11 18:07:36 [main] [handleRequest] [37] INFO  by.zvezdina.composite.parser.LexemeHandler - Found matching word:the
+2021-11-11 18:07:36 [main] [handleRequest] [19] INFO  by.zvezdina.composite.parser.WordHandler - Start parse text element - word:  
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol:  
+2021-11-11 18:07:36 [main] [handleRequest] [29] INFO  by.zvezdina.composite.parser.WordHandler - result text component - word:  
+2021-11-11 18:07:36 [main] [handleRequest] [43] INFO  by.zvezdina.composite.parser.LexemeHandler - Result text component - lexeme: the 
+2021-11-11 18:07:36 [main] [handleRequest] [32] INFO  by.zvezdina.composite.parser.SentenceHandler - Found matching lexeme :release 
+2021-11-11 18:07:36 [main] [handleRequest] [23] INFO  by.zvezdina.composite.parser.LexemeHandler - Start parse text element - lexeme: release 
+2021-11-11 18:07:36 [main] [handleRequest] [19] INFO  by.zvezdina.composite.parser.WordHandler - Start parse text element - word: release
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: r
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: e
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: l
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: e
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: a
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: s
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: e
+2021-11-11 18:07:36 [main] [handleRequest] [29] INFO  by.zvezdina.composite.parser.WordHandler - result text component - word: release
+2021-11-11 18:07:36 [main] [handleRequest] [37] INFO  by.zvezdina.composite.parser.LexemeHandler - Found matching word:release
+2021-11-11 18:07:36 [main] [handleRequest] [19] INFO  by.zvezdina.composite.parser.WordHandler - Start parse text element - word:  
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol:  
+2021-11-11 18:07:36 [main] [handleRequest] [29] INFO  by.zvezdina.composite.parser.WordHandler - result text component - word:  
+2021-11-11 18:07:36 [main] [handleRequest] [43] INFO  by.zvezdina.composite.parser.LexemeHandler - Result text component - lexeme: release 
+2021-11-11 18:07:36 [main] [handleRequest] [32] INFO  by.zvezdina.composite.parser.SentenceHandler - Found matching lexeme :of 
+2021-11-11 18:07:36 [main] [handleRequest] [23] INFO  by.zvezdina.composite.parser.LexemeHandler - Start parse text element - lexeme: of 
+2021-11-11 18:07:36 [main] [handleRequest] [19] INFO  by.zvezdina.composite.parser.WordHandler - Start parse text element - word: of
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: o
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: f
+2021-11-11 18:07:36 [main] [handleRequest] [29] INFO  by.zvezdina.composite.parser.WordHandler - result text component - word: of
+2021-11-11 18:07:36 [main] [handleRequest] [37] INFO  by.zvezdina.composite.parser.LexemeHandler - Found matching word:of
+2021-11-11 18:07:36 [main] [handleRequest] [19] INFO  by.zvezdina.composite.parser.WordHandler - Start parse text element - word:  
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol:  
+2021-11-11 18:07:36 [main] [handleRequest] [29] INFO  by.zvezdina.composite.parser.WordHandler - result text component - word:  
+2021-11-11 18:07:36 [main] [handleRequest] [43] INFO  by.zvezdina.composite.parser.LexemeHandler - Result text component - lexeme: of 
+2021-11-11 18:07:36 [main] [handleRequest] [32] INFO  by.zvezdina.composite.parser.SentenceHandler - Found matching lexeme :Letraset 
+2021-11-11 18:07:36 [main] [handleRequest] [23] INFO  by.zvezdina.composite.parser.LexemeHandler - Start parse text element - lexeme: Letraset 
+2021-11-11 18:07:36 [main] [handleRequest] [19] INFO  by.zvezdina.composite.parser.WordHandler - Start parse text element - word: Letraset
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: L
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: e
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: t
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: r
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: a
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: s
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: e
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: t
+2021-11-11 18:07:36 [main] [handleRequest] [29] INFO  by.zvezdina.composite.parser.WordHandler - result text component - word: Letraset
+2021-11-11 18:07:36 [main] [handleRequest] [37] INFO  by.zvezdina.composite.parser.LexemeHandler - Found matching word:Letraset
+2021-11-11 18:07:36 [main] [handleRequest] [19] INFO  by.zvezdina.composite.parser.WordHandler - Start parse text element - word:  
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol:  
+2021-11-11 18:07:36 [main] [handleRequest] [29] INFO  by.zvezdina.composite.parser.WordHandler - result text component - word:  
+2021-11-11 18:07:36 [main] [handleRequest] [43] INFO  by.zvezdina.composite.parser.LexemeHandler - Result text component - lexeme: Letraset 
+2021-11-11 18:07:36 [main] [handleRequest] [32] INFO  by.zvezdina.composite.parser.SentenceHandler - Found matching lexeme :sheets.toString() 
+2021-11-11 18:07:36 [main] [handleRequest] [23] INFO  by.zvezdina.composite.parser.LexemeHandler - Start parse text element - lexeme: sheets.toString() 
+2021-11-11 18:07:36 [main] [handleRequest] [19] INFO  by.zvezdina.composite.parser.WordHandler - Start parse text element - word: sheets
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: s
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: h
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: e
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: e
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: t
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: s
+2021-11-11 18:07:36 [main] [handleRequest] [29] INFO  by.zvezdina.composite.parser.WordHandler - result text component - word: sheets
+2021-11-11 18:07:36 [main] [handleRequest] [37] INFO  by.zvezdina.composite.parser.LexemeHandler - Found matching word:sheets
+2021-11-11 18:07:36 [main] [handleRequest] [19] INFO  by.zvezdina.composite.parser.WordHandler - Start parse text element - word:  
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol:  
+2021-11-11 18:07:36 [main] [handleRequest] [29] INFO  by.zvezdina.composite.parser.WordHandler - result text component - word:  
+2021-11-11 18:07:36 [main] [handleRequest] [19] INFO  by.zvezdina.composite.parser.WordHandler - Start parse text element - word: toString
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: t
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: o
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: S
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: t
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: r
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: i
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: n
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: g
+2021-11-11 18:07:36 [main] [handleRequest] [29] INFO  by.zvezdina.composite.parser.WordHandler - result text component - word: toString
+2021-11-11 18:07:36 [main] [handleRequest] [37] INFO  by.zvezdina.composite.parser.LexemeHandler - Found matching word:toString
+2021-11-11 18:07:36 [main] [handleRequest] [19] INFO  by.zvezdina.composite.parser.WordHandler - Start parse text element - word:  
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol:  
+2021-11-11 18:07:36 [main] [handleRequest] [29] INFO  by.zvezdina.composite.parser.WordHandler - result text component - word:  
+2021-11-11 18:07:36 [main] [handleRequest] [43] INFO  by.zvezdina.composite.parser.LexemeHandler - Result text component - lexeme: sheets toString 
+2021-11-11 18:07:36 [main] [handleRequest] [32] INFO  by.zvezdina.composite.parser.SentenceHandler - Found matching lexeme :containing 
+2021-11-11 18:07:36 [main] [handleRequest] [23] INFO  by.zvezdina.composite.parser.LexemeHandler - Start parse text element - lexeme: containing 
+2021-11-11 18:07:36 [main] [handleRequest] [19] INFO  by.zvezdina.composite.parser.WordHandler - Start parse text element - word: containing
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: c
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: o
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: n
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: t
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: a
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: i
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: n
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: i
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: n
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: g
+2021-11-11 18:07:36 [main] [handleRequest] [29] INFO  by.zvezdina.composite.parser.WordHandler - result text component - word: containing
+2021-11-11 18:07:36 [main] [handleRequest] [37] INFO  by.zvezdina.composite.parser.LexemeHandler - Found matching word:containing
+2021-11-11 18:07:36 [main] [handleRequest] [19] INFO  by.zvezdina.composite.parser.WordHandler - Start parse text element - word:  
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol:  
+2021-11-11 18:07:36 [main] [handleRequest] [29] INFO  by.zvezdina.composite.parser.WordHandler - result text component - word:  
+2021-11-11 18:07:36 [main] [handleRequest] [43] INFO  by.zvezdina.composite.parser.LexemeHandler - Result text component - lexeme: containing 
+2021-11-11 18:07:36 [main] [handleRequest] [32] INFO  by.zvezdina.composite.parser.SentenceHandler - Found matching lexeme :Lorem 
+2021-11-11 18:07:36 [main] [handleRequest] [23] INFO  by.zvezdina.composite.parser.LexemeHandler - Start parse text element - lexeme: Lorem 
+2021-11-11 18:07:36 [main] [handleRequest] [19] INFO  by.zvezdina.composite.parser.WordHandler - Start parse text element - word: Lorem
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: L
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: o
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: r
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: e
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: m
+2021-11-11 18:07:36 [main] [handleRequest] [29] INFO  by.zvezdina.composite.parser.WordHandler - result text component - word: Lorem
+2021-11-11 18:07:36 [main] [handleRequest] [37] INFO  by.zvezdina.composite.parser.LexemeHandler - Found matching word:Lorem
+2021-11-11 18:07:36 [main] [handleRequest] [19] INFO  by.zvezdina.composite.parser.WordHandler - Start parse text element - word:  
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol:  
+2021-11-11 18:07:36 [main] [handleRequest] [29] INFO  by.zvezdina.composite.parser.WordHandler - result text component - word:  
+2021-11-11 18:07:36 [main] [handleRequest] [43] INFO  by.zvezdina.composite.parser.LexemeHandler - Result text component - lexeme: Lorem 
+2021-11-11 18:07:36 [main] [handleRequest] [32] INFO  by.zvezdina.composite.parser.SentenceHandler - Found matching lexeme :Ipsum 
+2021-11-11 18:07:36 [main] [handleRequest] [23] INFO  by.zvezdina.composite.parser.LexemeHandler - Start parse text element - lexeme: Ipsum 
+2021-11-11 18:07:36 [main] [handleRequest] [19] INFO  by.zvezdina.composite.parser.WordHandler - Start parse text element - word: Ipsum
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: I
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: p
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: s
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: u
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: m
+2021-11-11 18:07:36 [main] [handleRequest] [29] INFO  by.zvezdina.composite.parser.WordHandler - result text component - word: Ipsum
+2021-11-11 18:07:36 [main] [handleRequest] [37] INFO  by.zvezdina.composite.parser.LexemeHandler - Found matching word:Ipsum
+2021-11-11 18:07:36 [main] [handleRequest] [19] INFO  by.zvezdina.composite.parser.WordHandler - Start parse text element - word:  
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol:  
+2021-11-11 18:07:36 [main] [handleRequest] [29] INFO  by.zvezdina.composite.parser.WordHandler - result text component - word:  
+2021-11-11 18:07:36 [main] [handleRequest] [43] INFO  by.zvezdina.composite.parser.LexemeHandler - Result text component - lexeme: Ipsum 
+2021-11-11 18:07:36 [main] [handleRequest] [32] INFO  by.zvezdina.composite.parser.SentenceHandler - Found matching lexeme :passages, 
+2021-11-11 18:07:36 [main] [handleRequest] [23] INFO  by.zvezdina.composite.parser.LexemeHandler - Start parse text element - lexeme: passages, 
+2021-11-11 18:07:36 [main] [handleRequest] [19] INFO  by.zvezdina.composite.parser.WordHandler - Start parse text element - word: passages
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: p
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: a
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: s
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: s
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: a
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: g
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: e
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: s
+2021-11-11 18:07:36 [main] [handleRequest] [29] INFO  by.zvezdina.composite.parser.WordHandler - result text component - word: passages
+2021-11-11 18:07:36 [main] [handleRequest] [37] INFO  by.zvezdina.composite.parser.LexemeHandler - Found matching word:passages
+2021-11-11 18:07:36 [main] [handleRequest] [19] INFO  by.zvezdina.composite.parser.WordHandler - Start parse text element - word:  
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol:  
+2021-11-11 18:07:36 [main] [handleRequest] [29] INFO  by.zvezdina.composite.parser.WordHandler - result text component - word:  
+2021-11-11 18:07:36 [main] [handleRequest] [43] INFO  by.zvezdina.composite.parser.LexemeHandler - Result text component - lexeme: passages 
+2021-11-11 18:07:36 [main] [handleRequest] [32] INFO  by.zvezdina.composite.parser.SentenceHandler - Found matching lexeme :and 
+2021-11-11 18:07:36 [main] [handleRequest] [23] INFO  by.zvezdina.composite.parser.LexemeHandler - Start parse text element - lexeme: and 
+2021-11-11 18:07:36 [main] [handleRequest] [19] INFO  by.zvezdina.composite.parser.WordHandler - Start parse text element - word: and
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: a
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: n
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: d
+2021-11-11 18:07:36 [main] [handleRequest] [29] INFO  by.zvezdina.composite.parser.WordHandler - result text component - word: and
+2021-11-11 18:07:36 [main] [handleRequest] [37] INFO  by.zvezdina.composite.parser.LexemeHandler - Found matching word:and
+2021-11-11 18:07:36 [main] [handleRequest] [19] INFO  by.zvezdina.composite.parser.WordHandler - Start parse text element - word:  
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol:  
+2021-11-11 18:07:36 [main] [handleRequest] [29] INFO  by.zvezdina.composite.parser.WordHandler - result text component - word:  
+2021-11-11 18:07:36 [main] [handleRequest] [43] INFO  by.zvezdina.composite.parser.LexemeHandler - Result text component - lexeme: and 
+2021-11-11 18:07:36 [main] [handleRequest] [32] INFO  by.zvezdina.composite.parser.SentenceHandler - Found matching lexeme :more 
+2021-11-11 18:07:36 [main] [handleRequest] [23] INFO  by.zvezdina.composite.parser.LexemeHandler - Start parse text element - lexeme: more 
+2021-11-11 18:07:36 [main] [handleRequest] [19] INFO  by.zvezdina.composite.parser.WordHandler - Start parse text element - word: more
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: m
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: o
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: r
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: e
+2021-11-11 18:07:36 [main] [handleRequest] [29] INFO  by.zvezdina.composite.parser.WordHandler - result text component - word: more
+2021-11-11 18:07:36 [main] [handleRequest] [37] INFO  by.zvezdina.composite.parser.LexemeHandler - Found matching word:more
+2021-11-11 18:07:36 [main] [handleRequest] [19] INFO  by.zvezdina.composite.parser.WordHandler - Start parse text element - word:  
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol:  
+2021-11-11 18:07:36 [main] [handleRequest] [29] INFO  by.zvezdina.composite.parser.WordHandler - result text component - word:  
+2021-11-11 18:07:36 [main] [handleRequest] [43] INFO  by.zvezdina.composite.parser.LexemeHandler - Result text component - lexeme: more 
+2021-11-11 18:07:36 [main] [handleRequest] [32] INFO  by.zvezdina.composite.parser.SentenceHandler - Found matching lexeme :recently 
+2021-11-11 18:07:36 [main] [handleRequest] [23] INFO  by.zvezdina.composite.parser.LexemeHandler - Start parse text element - lexeme: recently 
+2021-11-11 18:07:36 [main] [handleRequest] [19] INFO  by.zvezdina.composite.parser.WordHandler - Start parse text element - word: recently
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: r
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: e
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: c
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: e
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: n
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: t
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: l
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: y
+2021-11-11 18:07:36 [main] [handleRequest] [29] INFO  by.zvezdina.composite.parser.WordHandler - result text component - word: recently
+2021-11-11 18:07:36 [main] [handleRequest] [37] INFO  by.zvezdina.composite.parser.LexemeHandler - Found matching word:recently
+2021-11-11 18:07:36 [main] [handleRequest] [19] INFO  by.zvezdina.composite.parser.WordHandler - Start parse text element - word:  
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol:  
+2021-11-11 18:07:36 [main] [handleRequest] [29] INFO  by.zvezdina.composite.parser.WordHandler - result text component - word:  
+2021-11-11 18:07:36 [main] [handleRequest] [43] INFO  by.zvezdina.composite.parser.LexemeHandler - Result text component - lexeme: recently 
+2021-11-11 18:07:36 [main] [handleRequest] [32] INFO  by.zvezdina.composite.parser.SentenceHandler - Found matching lexeme :with 
+2021-11-11 18:07:36 [main] [handleRequest] [23] INFO  by.zvezdina.composite.parser.LexemeHandler - Start parse text element - lexeme: with 
+2021-11-11 18:07:36 [main] [handleRequest] [19] INFO  by.zvezdina.composite.parser.WordHandler - Start parse text element - word: with
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: w
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: i
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: t
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: h
+2021-11-11 18:07:36 [main] [handleRequest] [29] INFO  by.zvezdina.composite.parser.WordHandler - result text component - word: with
+2021-11-11 18:07:36 [main] [handleRequest] [37] INFO  by.zvezdina.composite.parser.LexemeHandler - Found matching word:with
+2021-11-11 18:07:36 [main] [handleRequest] [19] INFO  by.zvezdina.composite.parser.WordHandler - Start parse text element - word:  
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol:  
+2021-11-11 18:07:36 [main] [handleRequest] [29] INFO  by.zvezdina.composite.parser.WordHandler - result text component - word:  
+2021-11-11 18:07:36 [main] [handleRequest] [43] INFO  by.zvezdina.composite.parser.LexemeHandler - Result text component - lexeme: with 
+2021-11-11 18:07:36 [main] [handleRequest] [32] INFO  by.zvezdina.composite.parser.SentenceHandler - Found matching lexeme :desktop 
+2021-11-11 18:07:36 [main] [handleRequest] [23] INFO  by.zvezdina.composite.parser.LexemeHandler - Start parse text element - lexeme: desktop 
+2021-11-11 18:07:36 [main] [handleRequest] [19] INFO  by.zvezdina.composite.parser.WordHandler - Start parse text element - word: desktop
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: d
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: e
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: s
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: k
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: t
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: o
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: p
+2021-11-11 18:07:36 [main] [handleRequest] [29] INFO  by.zvezdina.composite.parser.WordHandler - result text component - word: desktop
+2021-11-11 18:07:36 [main] [handleRequest] [37] INFO  by.zvezdina.composite.parser.LexemeHandler - Found matching word:desktop
+2021-11-11 18:07:36 [main] [handleRequest] [19] INFO  by.zvezdina.composite.parser.WordHandler - Start parse text element - word:  
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol:  
+2021-11-11 18:07:36 [main] [handleRequest] [29] INFO  by.zvezdina.composite.parser.WordHandler - result text component - word:  
+2021-11-11 18:07:36 [main] [handleRequest] [43] INFO  by.zvezdina.composite.parser.LexemeHandler - Result text component - lexeme: desktop 
+2021-11-11 18:07:36 [main] [handleRequest] [32] INFO  by.zvezdina.composite.parser.SentenceHandler - Found matching lexeme :publishing 
+2021-11-11 18:07:36 [main] [handleRequest] [23] INFO  by.zvezdina.composite.parser.LexemeHandler - Start parse text element - lexeme: publishing 
+2021-11-11 18:07:36 [main] [handleRequest] [19] INFO  by.zvezdina.composite.parser.WordHandler - Start parse text element - word: publishing
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: p
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: u
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: b
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: l
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: i
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: s
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: h
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: i
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: n
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: g
+2021-11-11 18:07:36 [main] [handleRequest] [29] INFO  by.zvezdina.composite.parser.WordHandler - result text component - word: publishing
+2021-11-11 18:07:36 [main] [handleRequest] [37] INFO  by.zvezdina.composite.parser.LexemeHandler - Found matching word:publishing
+2021-11-11 18:07:36 [main] [handleRequest] [19] INFO  by.zvezdina.composite.parser.WordHandler - Start parse text element - word:  
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol:  
+2021-11-11 18:07:36 [main] [handleRequest] [29] INFO  by.zvezdina.composite.parser.WordHandler - result text component - word:  
+2021-11-11 18:07:36 [main] [handleRequest] [43] INFO  by.zvezdina.composite.parser.LexemeHandler - Result text component - lexeme: publishing 
+2021-11-11 18:07:36 [main] [handleRequest] [32] INFO  by.zvezdina.composite.parser.SentenceHandler - Found matching lexeme :software 
+2021-11-11 18:07:36 [main] [handleRequest] [23] INFO  by.zvezdina.composite.parser.LexemeHandler - Start parse text element - lexeme: software 
+2021-11-11 18:07:36 [main] [handleRequest] [19] INFO  by.zvezdina.composite.parser.WordHandler - Start parse text element - word: software
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: s
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: o
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: f
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: t
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: w
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: a
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: r
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: e
+2021-11-11 18:07:36 [main] [handleRequest] [29] INFO  by.zvezdina.composite.parser.WordHandler - result text component - word: software
+2021-11-11 18:07:36 [main] [handleRequest] [37] INFO  by.zvezdina.composite.parser.LexemeHandler - Found matching word:software
+2021-11-11 18:07:36 [main] [handleRequest] [19] INFO  by.zvezdina.composite.parser.WordHandler - Start parse text element - word:  
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol:  
+2021-11-11 18:07:36 [main] [handleRequest] [29] INFO  by.zvezdina.composite.parser.WordHandler - result text component - word:  
+2021-11-11 18:07:36 [main] [handleRequest] [43] INFO  by.zvezdina.composite.parser.LexemeHandler - Result text component - lexeme: software 
+2021-11-11 18:07:36 [main] [handleRequest] [32] INFO  by.zvezdina.composite.parser.SentenceHandler - Found matching lexeme :like 
+2021-11-11 18:07:36 [main] [handleRequest] [23] INFO  by.zvezdina.composite.parser.LexemeHandler - Start parse text element - lexeme: like 
+2021-11-11 18:07:36 [main] [handleRequest] [19] INFO  by.zvezdina.composite.parser.WordHandler - Start parse text element - word: like
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: l
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: i
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: k
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: e
+2021-11-11 18:07:36 [main] [handleRequest] [29] INFO  by.zvezdina.composite.parser.WordHandler - result text component - word: like
+2021-11-11 18:07:36 [main] [handleRequest] [37] INFO  by.zvezdina.composite.parser.LexemeHandler - Found matching word:like
+2021-11-11 18:07:36 [main] [handleRequest] [19] INFO  by.zvezdina.composite.parser.WordHandler - Start parse text element - word:  
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol:  
+2021-11-11 18:07:36 [main] [handleRequest] [29] INFO  by.zvezdina.composite.parser.WordHandler - result text component - word:  
+2021-11-11 18:07:36 [main] [handleRequest] [43] INFO  by.zvezdina.composite.parser.LexemeHandler - Result text component - lexeme: like 
+2021-11-11 18:07:36 [main] [handleRequest] [32] INFO  by.zvezdina.composite.parser.SentenceHandler - Found matching lexeme :Aldus 
+2021-11-11 18:07:36 [main] [handleRequest] [23] INFO  by.zvezdina.composite.parser.LexemeHandler - Start parse text element - lexeme: Aldus 
+2021-11-11 18:07:36 [main] [handleRequest] [19] INFO  by.zvezdina.composite.parser.WordHandler - Start parse text element - word: Aldus
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: A
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: l
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: d
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: u
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: s
+2021-11-11 18:07:36 [main] [handleRequest] [29] INFO  by.zvezdina.composite.parser.WordHandler - result text component - word: Aldus
+2021-11-11 18:07:36 [main] [handleRequest] [37] INFO  by.zvezdina.composite.parser.LexemeHandler - Found matching word:Aldus
+2021-11-11 18:07:36 [main] [handleRequest] [19] INFO  by.zvezdina.composite.parser.WordHandler - Start parse text element - word:  
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol:  
+2021-11-11 18:07:36 [main] [handleRequest] [29] INFO  by.zvezdina.composite.parser.WordHandler - result text component - word:  
+2021-11-11 18:07:36 [main] [handleRequest] [43] INFO  by.zvezdina.composite.parser.LexemeHandler - Result text component - lexeme: Aldus 
+2021-11-11 18:07:36 [main] [handleRequest] [32] INFO  by.zvezdina.composite.parser.SentenceHandler - Found matching lexeme :PageMaker 
+2021-11-11 18:07:36 [main] [handleRequest] [23] INFO  by.zvezdina.composite.parser.LexemeHandler - Start parse text element - lexeme: PageMaker 
+2021-11-11 18:07:36 [main] [handleRequest] [19] INFO  by.zvezdina.composite.parser.WordHandler - Start parse text element - word: PageMaker
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: P
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: a
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: g
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: e
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: M
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: a
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: k
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: e
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: r
+2021-11-11 18:07:36 [main] [handleRequest] [29] INFO  by.zvezdina.composite.parser.WordHandler - result text component - word: PageMaker
+2021-11-11 18:07:36 [main] [handleRequest] [37] INFO  by.zvezdina.composite.parser.LexemeHandler - Found matching word:PageMaker
+2021-11-11 18:07:36 [main] [handleRequest] [19] INFO  by.zvezdina.composite.parser.WordHandler - Start parse text element - word:  
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol:  
+2021-11-11 18:07:36 [main] [handleRequest] [29] INFO  by.zvezdina.composite.parser.WordHandler - result text component - word:  
+2021-11-11 18:07:36 [main] [handleRequest] [43] INFO  by.zvezdina.composite.parser.LexemeHandler - Result text component - lexeme: PageMaker 
+2021-11-11 18:07:36 [main] [handleRequest] [32] INFO  by.zvezdina.composite.parser.SentenceHandler - Found matching lexeme :Faclon9 
+2021-11-11 18:07:36 [main] [handleRequest] [23] INFO  by.zvezdina.composite.parser.LexemeHandler - Start parse text element - lexeme: Faclon9 
+2021-11-11 18:07:36 [main] [handleRequest] [19] INFO  by.zvezdina.composite.parser.WordHandler - Start parse text element - word: Faclon
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: F
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: a
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: c
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: l
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: o
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: n
+2021-11-11 18:07:36 [main] [handleRequest] [29] INFO  by.zvezdina.composite.parser.WordHandler - result text component - word: Faclon
+2021-11-11 18:07:36 [main] [handleRequest] [37] INFO  by.zvezdina.composite.parser.LexemeHandler - Found matching word:Faclon
+2021-11-11 18:07:36 [main] [handleRequest] [19] INFO  by.zvezdina.composite.parser.WordHandler - Start parse text element - word:  
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol:  
+2021-11-11 18:07:36 [main] [handleRequest] [29] INFO  by.zvezdina.composite.parser.WordHandler - result text component - word:  
+2021-11-11 18:07:36 [main] [handleRequest] [43] INFO  by.zvezdina.composite.parser.LexemeHandler - Result text component - lexeme: Faclon 
+2021-11-11 18:07:36 [main] [handleRequest] [32] INFO  by.zvezdina.composite.parser.SentenceHandler - Found matching lexeme :including 
+2021-11-11 18:07:36 [main] [handleRequest] [23] INFO  by.zvezdina.composite.parser.LexemeHandler - Start parse text element - lexeme: including 
+2021-11-11 18:07:36 [main] [handleRequest] [19] INFO  by.zvezdina.composite.parser.WordHandler - Start parse text element - word: including
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: i
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: n
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: c
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: l
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: u
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: d
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: i
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: n
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: g
+2021-11-11 18:07:36 [main] [handleRequest] [29] INFO  by.zvezdina.composite.parser.WordHandler - result text component - word: including
+2021-11-11 18:07:36 [main] [handleRequest] [37] INFO  by.zvezdina.composite.parser.LexemeHandler - Found matching word:including
+2021-11-11 18:07:36 [main] [handleRequest] [19] INFO  by.zvezdina.composite.parser.WordHandler - Start parse text element - word:  
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol:  
+2021-11-11 18:07:36 [main] [handleRequest] [29] INFO  by.zvezdina.composite.parser.WordHandler - result text component - word:  
+2021-11-11 18:07:36 [main] [handleRequest] [43] INFO  by.zvezdina.composite.parser.LexemeHandler - Result text component - lexeme: including 
+2021-11-11 18:07:36 [main] [handleRequest] [32] INFO  by.zvezdina.composite.parser.SentenceHandler - Found matching lexeme :versions 
+2021-11-11 18:07:36 [main] [handleRequest] [23] INFO  by.zvezdina.composite.parser.LexemeHandler - Start parse text element - lexeme: versions 
+2021-11-11 18:07:36 [main] [handleRequest] [19] INFO  by.zvezdina.composite.parser.WordHandler - Start parse text element - word: versions
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: v
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: e
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: r
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: s
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: i
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: o
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: n
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: s
+2021-11-11 18:07:36 [main] [handleRequest] [29] INFO  by.zvezdina.composite.parser.WordHandler - result text component - word: versions
+2021-11-11 18:07:36 [main] [handleRequest] [37] INFO  by.zvezdina.composite.parser.LexemeHandler - Found matching word:versions
+2021-11-11 18:07:36 [main] [handleRequest] [19] INFO  by.zvezdina.composite.parser.WordHandler - Start parse text element - word:  
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol:  
+2021-11-11 18:07:36 [main] [handleRequest] [29] INFO  by.zvezdina.composite.parser.WordHandler - result text component - word:  
+2021-11-11 18:07:36 [main] [handleRequest] [43] INFO  by.zvezdina.composite.parser.LexemeHandler - Result text component - lexeme: versions 
+2021-11-11 18:07:36 [main] [handleRequest] [32] INFO  by.zvezdina.composite.parser.SentenceHandler - Found matching lexeme :of 
+2021-11-11 18:07:36 [main] [handleRequest] [23] INFO  by.zvezdina.composite.parser.LexemeHandler - Start parse text element - lexeme: of 
+2021-11-11 18:07:36 [main] [handleRequest] [19] INFO  by.zvezdina.composite.parser.WordHandler - Start parse text element - word: of
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: o
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: f
+2021-11-11 18:07:36 [main] [handleRequest] [29] INFO  by.zvezdina.composite.parser.WordHandler - result text component - word: of
+2021-11-11 18:07:36 [main] [handleRequest] [37] INFO  by.zvezdina.composite.parser.LexemeHandler - Found matching word:of
+2021-11-11 18:07:36 [main] [handleRequest] [19] INFO  by.zvezdina.composite.parser.WordHandler - Start parse text element - word:  
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol:  
+2021-11-11 18:07:36 [main] [handleRequest] [29] INFO  by.zvezdina.composite.parser.WordHandler - result text component - word:  
+2021-11-11 18:07:36 [main] [handleRequest] [43] INFO  by.zvezdina.composite.parser.LexemeHandler - Result text component - lexeme: of 
+2021-11-11 18:07:36 [main] [handleRequest] [32] INFO  by.zvezdina.composite.parser.SentenceHandler - Found matching lexeme :Lorem 
+2021-11-11 18:07:36 [main] [handleRequest] [23] INFO  by.zvezdina.composite.parser.LexemeHandler - Start parse text element - lexeme: Lorem 
+2021-11-11 18:07:36 [main] [handleRequest] [19] INFO  by.zvezdina.composite.parser.WordHandler - Start parse text element - word: Lorem
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: L
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: o
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: r
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: e
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: m
+2021-11-11 18:07:36 [main] [handleRequest] [29] INFO  by.zvezdina.composite.parser.WordHandler - result text component - word: Lorem
+2021-11-11 18:07:36 [main] [handleRequest] [37] INFO  by.zvezdina.composite.parser.LexemeHandler - Found matching word:Lorem
+2021-11-11 18:07:36 [main] [handleRequest] [19] INFO  by.zvezdina.composite.parser.WordHandler - Start parse text element - word:  
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol:  
+2021-11-11 18:07:36 [main] [handleRequest] [29] INFO  by.zvezdina.composite.parser.WordHandler - result text component - word:  
+2021-11-11 18:07:36 [main] [handleRequest] [43] INFO  by.zvezdina.composite.parser.LexemeHandler - Result text component - lexeme: Lorem 
+2021-11-11 18:07:36 [main] [handleRequest] [32] INFO  by.zvezdina.composite.parser.SentenceHandler - Found matching lexeme :Ipsum!
+2021-11-11 18:07:36 [main] [handleRequest] [23] INFO  by.zvezdina.composite.parser.LexemeHandler - Start parse text element - lexeme: Ipsum!
+2021-11-11 18:07:36 [main] [handleRequest] [19] INFO  by.zvezdina.composite.parser.WordHandler - Start parse text element - word: Ipsum
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: I
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: p
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: s
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: u
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: m
+2021-11-11 18:07:36 [main] [handleRequest] [29] INFO  by.zvezdina.composite.parser.WordHandler - result text component - word: Ipsum
+2021-11-11 18:07:36 [main] [handleRequest] [37] INFO  by.zvezdina.composite.parser.LexemeHandler - Found matching word:Ipsum
+2021-11-11 18:07:36 [main] [handleRequest] [19] INFO  by.zvezdina.composite.parser.WordHandler - Start parse text element - word:  
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol:  
+2021-11-11 18:07:36 [main] [handleRequest] [29] INFO  by.zvezdina.composite.parser.WordHandler - result text component - word:  
+2021-11-11 18:07:36 [main] [handleRequest] [43] INFO  by.zvezdina.composite.parser.LexemeHandler - Result text component - lexeme: Ipsum 
+2021-11-11 18:07:36 [main] [handleRequest] [36] INFO  by.zvezdina.composite.parser.SentenceHandler - Result text component: It was popularised in the Динамо Рига with the release of Letraset sheets toString containing Lorem Ipsum passages and more recently with desktop publishing software like Aldus PageMaker Faclon including versions of Lorem Ipsum 
+2021-11-11 18:07:36 [main] [handleRequest] [34] INFO  by.zvezdina.composite.parser.ParagraphHandler - Result text component - sentence: It has survived not only five centuries but also the leap into electronic typesetting remaining essentially unchanged It was popularised in the Динамо Рига with the release of Letraset sheets toString containing Lorem Ipsum passages and more recently with desktop publishing software like Aldus PageMaker Faclon including versions of Lorem Ipsum 
+2021-11-11 18:07:36 [main] [handleRequest] [35] INFO  by.zvezdina.composite.parser.TextHandler - Found matching paragraph:     It is a long a!=b established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Ipsum is that it has a more-or-less normal distribution ob.toString(a?b:c), as opposed to using (Content here), content here's, making it look like readable English?
+2021-11-11 18:07:36 [main] [handleRequest] [22] INFO  by.zvezdina.composite.parser.ParagraphHandler - Start parse text element - paragraph:      It is a long a!=b established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Ipsum is that it has a more-or-less normal distribution ob.toString(a?b:c), as opposed to using (Content here), content here's, making it look like readable English?
+2021-11-11 18:07:36 [main] [handleRequest] [30] INFO  by.zvezdina.composite.parser.ParagraphHandler - Found matching sentence:     It is a long a!=b established fact that a reader will be distracted by the readable content of a page when looking at its layout. 
+2021-11-11 18:07:36 [main] [handleRequest] [32] INFO  by.zvezdina.composite.parser.SentenceHandler - Found matching lexeme :  
+2021-11-11 18:07:36 [main] [handleRequest] [23] INFO  by.zvezdina.composite.parser.LexemeHandler - Start parse text element - lexeme:   
+2021-11-11 18:07:36 [main] [handleRequest] [43] INFO  by.zvezdina.composite.parser.LexemeHandler - Result text component - lexeme: 
+2021-11-11 18:07:36 [main] [handleRequest] [32] INFO  by.zvezdina.composite.parser.SentenceHandler - Found matching lexeme :  
+2021-11-11 18:07:36 [main] [handleRequest] [23] INFO  by.zvezdina.composite.parser.LexemeHandler - Start parse text element - lexeme:   
+2021-11-11 18:07:36 [main] [handleRequest] [43] INFO  by.zvezdina.composite.parser.LexemeHandler - Result text component - lexeme: 
+2021-11-11 18:07:36 [main] [handleRequest] [32] INFO  by.zvezdina.composite.parser.SentenceHandler - Found matching lexeme : It 
+2021-11-11 18:07:36 [main] [handleRequest] [23] INFO  by.zvezdina.composite.parser.LexemeHandler - Start parse text element - lexeme:  It 
+2021-11-11 18:07:36 [main] [handleRequest] [19] INFO  by.zvezdina.composite.parser.WordHandler - Start parse text element - word: It
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: I
+2021-11-11 18:07:36 [main] [handleRequest] [26] INFO  by.zvezdina.composite.parser.WordHandler - Parsed symbol: t
+2021-11-11 18:07:36 [main] [handleRequest] [29] INFO  by.zvezdina.composite.parser.WordHandler - result text component - word: It
+2021-11-11 18:07:36 [main] [handleRequest] [37] INFO  by.zvezdina.composite.parser.LexemeHandler - Found matching word:It
+2021-11-11 18:07:36 [main] [handleRequest] [19] INFO  by.zvezdina.composite.parser.WordHandler - Start parse text element - word:  

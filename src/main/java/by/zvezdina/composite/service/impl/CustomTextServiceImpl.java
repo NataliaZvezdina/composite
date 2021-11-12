@@ -12,7 +12,6 @@ import java.util.stream.Collectors;
 
 public class CustomTextServiceImpl implements CustomTextService {
     private static final Logger logger = LogManager.getLogger();
-    private static final String SPACE_DELIMITER = "\s";
     private static final String NONE_SENTENCE = "";
     private static final String VOWEL_SET = "(?iu)[aeiouаеиоуё]";
     private static final String CONSONANT_SET = "(?iu)[^aeiouаеиоуё\\p{Punct}\\s\\d]";
@@ -46,6 +45,7 @@ public class CustomTextServiceImpl implements CustomTextService {
         return filtered;
     }
 
+    @Override
     public String findSentenceHavingLongestWord(TextComponent text) {
         WordLengthComparator comparator = new WordLengthComparator();
 
@@ -87,7 +87,6 @@ public class CustomTextServiceImpl implements CustomTextService {
 
     @Override
     public long countVowels(TextComponent sentence) {
-        //Pattern pattern = Pattern.compile(VOWEL_SET);
         long count = sentence.getListComponents()
                 .stream()
                 .flatMap(c -> c.getListComponents().stream())
