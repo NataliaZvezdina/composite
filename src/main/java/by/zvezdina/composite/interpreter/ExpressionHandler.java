@@ -13,9 +13,6 @@ public class ExpressionHandler {
     private static final String LEFT_ANGLE_BRACE = "<";
     private static final String SINGLE_SPACE = " ";
 
-//    public String parseMathExpression(String expression) {
-//        return
-//    }
 
     public String convertToPolishNotation(String expression) throws TextHandlingException {
         StringBuilder polishNotation = new StringBuilder();

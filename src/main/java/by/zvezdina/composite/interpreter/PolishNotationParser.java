@@ -18,8 +18,8 @@ public class PolishNotationParser {
                     case MathOperation.OR -> expression.add(c -> c.push(c.pop() | c.pop()));
                     case MathOperation.AND -> expression.add(c -> c.push(c.pop() & c.pop()));
                     case MathOperation.XOR -> expression.add(c -> c.push(c.pop() ^ c.pop()));
-                    case MathOperation.RIGHT_SHIFT -> expression.add(c -> c.push(c.pop() >> c.pop()));
-                    case MathOperation.LEFT_SHIFT -> expression.add(c -> c.push(c.pop() << c.pop()));
+                    case MathOperation.RIGHT_SHIFT -> expression.add(c -> c.push(c.pop()>>c.pop()));
+                    case MathOperation.LEFT_SHIFT -> expression.add(c -> c.push(c.pop()<<c.pop()));
                     case MathOperation.MULTIPLY -> expression.add(c -> c.push(c.pop() * c.pop()));
                     case MathOperation.DIVIDE -> expression.add(c -> c.push(c.pop() / c.pop()));
                     default -> expression.add(c -> c.push(Integer.parseInt(token)));
