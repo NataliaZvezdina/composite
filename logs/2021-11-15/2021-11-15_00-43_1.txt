@@ -1,0 +1,2 @@
+2021-11-15 00:43:28 [main] [readFileContent] [27] INFO  zvezdina.composite.reader.impl.CustomReaderImpl - Read file src/test/resources/testdata/example.txt
+2021-11-15 00:43:28 [main] [readFileContent] [33] ERROR zvezdina.composite.reader.impl.CustomReaderImpl - Error while reading file src/test/resources/testdata/example.txt

@@ -16,18 +16,19 @@ import java.util.stream.Stream;
 
 public class CustomReaderImpl implements CustomReader {
     private static final Logger logger = LogManager.getLogger();
+    private static final String SPACE_FOR_JOINING = "\s";
 
-    public String readLines(String filePath) throws TextHandlingException {
+    public String readFileContent(String filePath) throws TextHandlingException {
         ClassLoader classLoader = getClass().getClassLoader();
         URL resource = classLoader.getResource(filePath);
         File file = new File(resource.getFile());
         Path path = file.toPath();
 
         logger.log(Level.INFO, "Read file " + filePath);
-//        List<String> lines = new ArrayList<>();
+
         String text = "";
         try (Stream<String> streamLines = Files.lines(path)){
-            text = streamLines.collect(Collectors.joining(" "));
+            text = streamLines.collect(Collectors.joining(SPACE_FOR_JOINING));
         } catch (IOException e) {
             logger.log(Level.ERROR, "Error while reading file " + filePath);
             throw new TextHandlingException("Error while reading file " + filePath, e);

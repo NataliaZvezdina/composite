@@ -6,5 +6,5 @@ import java.util.List;
 
 public interface CustomReader {
 
-    String readLines(String filePath) throws TextHandlingException;
+    String readFileContent(String filePath) throws TextHandlingException;
 }

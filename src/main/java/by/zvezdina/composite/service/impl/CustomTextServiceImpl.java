@@ -51,7 +51,7 @@ public class CustomTextServiceImpl implements CustomTextService {
 
         Optional<String> sentence = text.getListComponents().stream()
                 .flatMap(c -> c.getListComponents().stream())
-                .min(comparator)
+                .max(comparator)
                 .map(TextComponent::toString);
 
         if (sentence.isEmpty()) {

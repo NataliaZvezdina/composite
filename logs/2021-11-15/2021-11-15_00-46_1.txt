@@ -1,0 +1,2 @@
+2021-11-15 00:46:01 [main] [readFileContent] [27] INFO  zvezdina.composite.reader.impl.CustomReaderImpl - Read file testdata/example1.txt
+2021-11-15 00:46:30 [main] [readFileContent] [27] INFO  zvezdina.composite.reader.impl.CustomReaderImpl - Read file testdata/example1.txt

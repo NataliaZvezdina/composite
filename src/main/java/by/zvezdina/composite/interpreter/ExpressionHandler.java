@@ -83,7 +83,6 @@ public class ExpressionHandler {
             }
             symbolBuilder.delete(0, symbolBuilder.length());
         }
-        System.out.println(strings);
         return strings.toArray(String[]::new);
     }
 }

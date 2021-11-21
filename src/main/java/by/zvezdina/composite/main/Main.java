@@ -17,20 +17,20 @@ public class Main {
 
     public static void main(String[] args) throws TextHandlingException {
 
-//        CustomReader reader = new CustomReaderImpl();
-//        String text = reader.readLines(FILE_PATH);
-//        System.out.println(text);
-//        System.out.println("------------------------------------------");
-//
-//        AbstractHandler handler = new TextHandler();
-//        TextComponent component = handler.handleRequest(text);
-//
-//        System.out.println("----------Component final -->");
-//        System.out.println(component.toString());
-//
-//        System.out.println("-------------------------------------------");
-//        CustomTextService service = new CustomTextServiceImpl();
-//
+        CustomReader reader = new CustomReaderImpl();
+        String text = reader.readFileContent(FILE_PATH);
+        System.out.println(text);
+        System.out.println("------------------------------------------");
+
+        AbstractHandler handler = new TextHandler();
+        TextComponent component = handler.handleRequest(text);
+
+        System.out.println("----------Component final -->");
+        System.out.println(component.toString());
+
+        System.out.println("-------------------------------------------");
+        CustomTextService service = new CustomTextServiceImpl();
+
 //        System.out.println("---------Sort paragraphs by number of sentences -->");
 //        System.out.println(service.sortParagraphs(component));
 //
@@ -51,24 +51,25 @@ public class Main {
 //        component.getListComponents()
 //                .stream().flatMap(c -> c.getListComponents().stream())
 //                .forEach(c -> System.out.println(service.countConsonants(c) + " for sentence: " + c));
+
+        System.out.println("--------Count words frequency -->");
+        service.countWordsFrequency(component)
+                .forEach((key, value) -> System.out.println(key + " - found times " + value));
+
+//        System.out.println("---------------------------------------------------");
+//        ExpressionHandler expressionHandler = new ExpressionHandler();
+//        MathOperation mathOperation = new MathOperation();
+//        String polishNotation = expressionHandler.convertToPolishNotation("7+4*2+3");
 //
-//        System.out.println("--------Count words frequency -->");
-//        service.countWordsFrequency(component)
-//                .forEach((key, value) -> System.out.println(key + " - found times " + value));
-
-        System.out.println("---------------------------------------------------");
-        ExpressionHandler expressionHandler = new ExpressionHandler();
-        MathOperation mathOperation = new MathOperation();
-        String polishNotation = expressionHandler.convertToPolishNotation("(7^5|1&2<<(2|5>>2&71))|1200");
-
-        PolishNotationParser polishNotationParser = new PolishNotationParser();
-        List<MathExpression> mathExpressions = polishNotationParser.parse(polishNotation);
-
-        ExpressionInterpreter interpreter = new ExpressionInterpreter();
-        Integer result = interpreter.handleExpression(mathExpressions);
-        System.out.println(result);
+//        PolishNotationParser polishNotationParser = new PolishNotationParser();
+//        List<MathExpression> mathExpressions = polishNotationParser.parse(polishNotation);
+//
+//        ExpressionInterpreter interpreter = new ExpressionInterpreter();
+//        Integer result = interpreter.handleExpression(mathExpressions);
+//        System.out.println(result);
 
     }
 }
 //(~71&(2&3|(3|(2&1>>2|2)&2)|10&2))|78
 //~6&9|(3&4)
+//(7^5|1&2<<(2|5>>2&71))|1200
