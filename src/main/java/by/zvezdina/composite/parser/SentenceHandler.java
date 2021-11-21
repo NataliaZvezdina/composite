@@ -11,8 +11,7 @@ import java.util.regex.Pattern;
 
 public class SentenceHandler extends AbstractHandler {
     private static final Logger logger = LogManager.getLogger();
-    private static final String LEXEME_DELIMITER = ".+?(\\s|$)" ;                     //  [\\.?!]\\s[\\.?!] [.|?|!|...]\\s
-
+    private static final String LEXEME_DELIMITER = ".+?(\\s|$)" ;
 
     public SentenceHandler() {
         super(new LexemeHandler());

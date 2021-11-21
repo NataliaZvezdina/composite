@@ -5,6 +5,8 @@ import java.util.Set;
 
 public class MathOperation {
 
+    private static MathOperation instance;
+
     public static final String PLUS = "+";
     public static final String MINUS = "-";
     public static final String MULTIPLY = "*";
@@ -18,9 +20,9 @@ public class MathOperation {
     public static final String OPEN_BRACE = "(";
     public static final String CLOSED_BRACE = ")";
 
-    private static Set<String> operationSet = new HashSet<>();
+    private Set<String> operationSet = new HashSet<>();
 
-    public MathOperation() {
+    private MathOperation() {
         operationSet.add(PLUS);
         operationSet.add(MINUS);
         operationSet.add(MULTIPLY);
@@ -34,7 +36,14 @@ public class MathOperation {
         operationSet.add(OPEN_BRACE);
     }
 
-    public static Set<String> getOperationSet() {
+    public static MathOperation getInstance() {
+        if (instance == null) {
+            instance = new MathOperation();
+        }
+        return instance;
+    }
+
+    public Set<String> getOperationSet() {
         return operationSet;
     }
 }

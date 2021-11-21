@@ -11,7 +11,7 @@ import java.util.regex.Pattern;
 
 public class ParagraphHandler extends AbstractHandler {
     private static final Logger logger = LogManager.getLogger();
-    private static final String SENTENCE_DELIMITER = ".+?[.?!…](\\s|$)";            // ".+?[.?!…](\\s|$)"
+    private static final String SENTENCE_DELIMITER = ".+?[.?!…](\\s|$)";
 
     public ParagraphHandler(){
         super(new SentenceHandler());

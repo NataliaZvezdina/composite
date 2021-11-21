@@ -1,6 +1,4 @@
 
-x
-Hsrc/main/java/by/zvezdina/composite/exception/TextHandlingException.java,3\6\36e8164c058c17714b1495cc54e94bbe0491a1ab
 V
 &logs/2021-11-09/2021-11-09_07-42_1.txt,5\d\5dc3f82bf64a1b81980a76f0f17731e2c5bfc6d7
 V
@@ -207,13 +205,3 @@ V
 &logs/2021-11-07/2021-11-07_10-44_1.txt,8\e\8ebef4852626ad0a017c67b13e140b68335506c7
 V
 &logs/2021-11-07/2021-11-07_10-24_2.txt,7\c\7cb14fe5890ad647dd3a82b2cd93c211d71dea60
-s
-Csrc/main/java/by/zvezdina/composite/interpreter/MathExpression.java,1\a\1ab12e7b47a2e2123a04f521bd8accd9c3b66eea
-l
-<src/main/java/by/zvezdina/composite/interpreter/Context.java,b\5\b5a0962071cc44ac5d157da0775bd14ccd631e70
-r
-Bsrc/main/java/by/zvezdina/composite/interpreter/MathOperation.java,a\6\a6fef3f094b31edbfbf6e4b58aa2a85076caffa9
-m
-=src/main/java/by/zvezdina/composite/entity/TextComposite.java,f\8\f8acacf2f4218cf9a54ad8cc7bb3dbef772375de
-y
-Isrc/main/java/by/zvezdina/composite/interpreter/PolishNotationParser.java,5\a\5a3fe6f769b0dedaa0c0144eddc17c842c04ec08

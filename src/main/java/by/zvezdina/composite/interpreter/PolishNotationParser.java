@@ -5,7 +5,7 @@ import java.util.Arrays;
 import java.util.List;
 
 public class PolishNotationParser {
-    public static final String SPACE_FOR_SPLIT = " ";
+    public static final String SPACE_FOR_SPLIT = "\s";
 
     public List<MathExpression> parse(String polishNotation) {
         List<MathExpression> expression = new ArrayList<>();

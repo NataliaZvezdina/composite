@@ -31,42 +31,43 @@ public class Main {
         System.out.println("-------------------------------------------");
         CustomTextService service = new CustomTextServiceImpl();
 
-//        System.out.println("---------Sort paragraphs by number of sentences -->");
-//        System.out.println(service.sortParagraphs(component));
-//
-//        System.out.println("---------Filter sentences --->");
-//        String result = service.filterSentencesByWordsNumber(component, 2);
-//        System.out.println("Resulting filtered text: " + result);
-//
-//        System.out.println("--------Sentence with the longest word -->");
-//        System.out.println(service.findSentenceHavingLongestWord(component));
-//
-//
-//        System.out.println("--------Count vowels in sentences --->");
-//        component.getListComponents()
-//                .stream().flatMap(c -> c.getListComponents().stream())
-//                .forEach(c -> System.out.println(service.countVowels(c) + " for sentence: " + c));
+        System.out.println("---------Sort paragraphs by number of sentences -->");
+        System.out.println(service.sortParagraphs(component));
 
-//        System.out.println("--------Count consonants in sentences --->");
-//        component.getListComponents()
-//                .stream().flatMap(c -> c.getListComponents().stream())
-//                .forEach(c -> System.out.println(service.countConsonants(c) + " for sentence: " + c));
+        System.out.println("---------Filter sentences --->");
+        String result = service.filterSentencesByWordsNumber(component, 2);
+        System.out.println("Resulting filtered text: " + result);
+
+        System.out.println("--------Sentence with the longest word -->");
+        System.out.println(service.findSentenceHavingLongestWord(component));
+
+
+        System.out.println("--------Count vowels in sentences --->");
+        component.getListComponents()
+                .stream().flatMap(c -> c.getListComponents().stream())
+                .forEach(c -> System.out.println(service.countVowels(c) + " for sentence: " + c));
+
+        System.out.println("--------Count consonants in sentences --->");
+        component.getListComponents()
+                .stream().flatMap(c -> c.getListComponents().stream())
+                .forEach(c -> System.out.println(service.countConsonants(c) + " for sentence: " + c));
 
         System.out.println("--------Count words frequency -->");
         service.countWordsFrequency(component)
                 .forEach((key, value) -> System.out.println(key + " - found times " + value));
 
-//        System.out.println("---------------------------------------------------");
-//        ExpressionHandler expressionHandler = new ExpressionHandler();
-//        MathOperation mathOperation = new MathOperation();
-//        String polishNotation = expressionHandler.convertToPolishNotation("7+4*2+3");
-//
-//        PolishNotationParser polishNotationParser = new PolishNotationParser();
-//        List<MathExpression> mathExpressions = polishNotationParser.parse(polishNotation);
-//
-//        ExpressionInterpreter interpreter = new ExpressionInterpreter();
-//        Integer result = interpreter.handleExpression(mathExpressions);
-//        System.out.println(result);
+        System.out.println("---------------------------------------------------");
+        ExpressionHandler expressionHandler = new ExpressionHandler();
+        String polishNotation = expressionHandler.convertToPolishNotation("(7^5|1&2<<(2|5>>2&71))|1200");
+
+        PolishNotationParser polishNotationParser = new PolishNotationParser();
+        List<MathExpression> mathExpressions = polishNotationParser.parse(polishNotation);
+
+        ExpressionInterpreter interpreter = new ExpressionInterpreter();
+        Integer mathResult = interpreter.handleExpression(mathExpressions);
+
+        System.out.println(mathResult);
+        System.out.println((7^5|1&2<<(2|5>>2&71))|1200);
 
     }
 }

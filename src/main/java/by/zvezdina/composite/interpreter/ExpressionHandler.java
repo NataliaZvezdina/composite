@@ -16,6 +16,7 @@ public class ExpressionHandler {
 
     public String convertToPolishNotation(String expression) throws TextHandlingException {
         StringBuilder polishNotation = new StringBuilder();
+        MathOperation mathOperation = MathOperation.getInstance();
 
         Deque<String> queue = new ArrayDeque<>();
         String[] allSymbols = splitExpression(expression);
@@ -31,7 +32,7 @@ public class ExpressionHandler {
                     }
                 } else if (MathOperation.INVERT.contentEquals(symbol)) {
                     isInverted = true;
-                } else if (MathOperation.getOperationSet().contains(symbol)) {
+                } else if (mathOperation.getOperationSet().contains(symbol)) {
                     queue.add(symbol);
                 } else if (MathOperation.CLOSED_BRACE.contentEquals(symbol)) {
                     String queueSymbol = queue.pollLast();
@@ -58,6 +59,7 @@ public class ExpressionHandler {
         List<String> strings = new ArrayList<>();
         StringBuilder digitBuilder = new StringBuilder();
         StringBuilder symbolBuilder = new StringBuilder();
+        MathOperation mathOperation = MathOperation.getInstance();
 
         for (int i = 0; i < expression.length(); i++) {
             symbolBuilder.append(expression.charAt(i));
@@ -66,7 +68,7 @@ public class ExpressionHandler {
                 continue;
             }
 
-            if (MathOperation.getOperationSet().contains(symbolBuilder.toString())
+            if (mathOperation.getOperationSet().contains(symbolBuilder.toString())
                     || MathOperation.CLOSED_BRACE.contentEquals(symbolBuilder)) {
                 if (!digitBuilder.isEmpty()) {
                     strings.add(digitBuilder.toString());
